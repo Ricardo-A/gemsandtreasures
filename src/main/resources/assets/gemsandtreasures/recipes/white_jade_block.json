@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "gemWhiteJade"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:white_jade_block"
+  }
+}

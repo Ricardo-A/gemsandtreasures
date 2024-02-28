@@ -1,0 +1,119 @@
+itemGroup.gemsandtreasures=Gems and Treasures
+
+item.gemsandtreasures:carbonado.name=Carbonado
+item.gemsandtreasures:carbonado_raw.name=Carbonado Bruto
+item.gemsandtreasures:carbonado_cluster.name=Aglomerado de Carbonado
+item.gemsandtreasures:carbonado_shard.name=Fragmento de Carbonado
+
+item.gemsandtreasures:carbonado_pickaxe.name=Picareta de Carbonado
+item.gemsandtreasures:carbonado_axe.name=Machado de Carbonado
+item.gemsandtreasures:carbonado_shovel.name=Pé de Carbonado
+item.gemsandtreasures:carbonado_hoe.name=Enxada de Carbonado
+item.gemsandtreasures:carbonado_sword.name=Espada de Carbonado
+
+item.gemsandtreasures:carbonado_helmet.name=Elmo de Carbonado
+item.gemsandtreasures:carbonado_chestplate.name=Peitoral de Carbonado
+item.gemsandtreasures:carbonado_leggings.name=Perneira de Carbonado
+item.gemsandtreasures:carbonado_boots.name=Botas de Carbonado
+
+tile.gemsandtreasures:carbonado_ore.name=Minério de Carbonado
+tile.gemsandtreasures:carbonado_block.name=Bloco de Carbonado
+tile.gemsandtreasures:carbonado_glass.name=Vitral de Carbonado
+
+item.gemsandtreasures:marble.name=Mármore
+item.gemsandtreasures:black_marble.name=Mármore Negro
+
+tile.gemsandtreasures:marble_block.name=Bloco de Mármore
+tile.gemsandtreasures:marble_block1.name=Bloco de Mármore
+tile.gemsandtreasures:marble_block2.name=Bloco de Mármore
+tile.gemsandtreasures:marble_block3.name=Bloco de Mármore
+tile.gemsandtreasures:marble_block4.name=Bloco de Mármore
+tile.gemsandtreasures:black_marble_block.name=Bloco de Mármore Negro
+tile.gemsandtreasures:black_marble_block1.name=Bloco de Mármore Negro
+tile.gemsandtreasures:black_marble_block2.name=Bloco de Mármore Negro
+tile.gemsandtreasures:black_marble_block3.name=Bloco de Mármore Negro
+tile.gemsandtreasures:black_marble_block4.name=Bloco de Mármore Negro
+tile.gemsandtreasures:marble_ore.name=Minério de Mármore
+tile.gemsandtreasures:black_marble_ore.name=Minério de Mármore Negro
+
+item.gemsandtreasures:tigers_eye.name=Olho de Tigre
+item.gemsandtreasures:scroll_of_return.name=Pergaminho do Retorno
+
+tile.gemsandtreasures:tigers_eye_block.name=Bloco de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_glass.name=Vitral de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_ore.name=Minério de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_sand_ore.name=Minério de Olho de Tigre
+
+item.gemsandtreasures:jade.name=Jade
+item.gemsandtreasures:fire_jade.name=Jade de Fogo
+item.gemsandtreasures:void_jade.name=Jade de Vazio
+item.gemsandtreasures:white_jade.name=Jade Branca
+item.gemsandtreasures:golden_jade.name=Jade Dourada
+item.gemsandtreasures:rainbow_jade.name=Jade Colorida
+
+tile.gemsandtreasures:jade_block.name=Bloco de Jade
+tile.gemsandtreasures:fire_jade_block.name=Bloco de Jade de Fogo
+tile.gemsandtreasures:void_jade_block.name=Bloco de Jade do Vazio
+tile.gemsandtreasures:white_jade_block.name=Bloco de Jade Branca
+tile.gemsandtreasures:golden_jade_block.name=Bloco de Jade Dourada
+tile.gemsandtreasures:rainbow_jade_block.name=Bloco de Jade Colorida
+
+tile.gemsandtreasures:jade_glass.name=Vitral de Jade
+tile.gemsandtreasures:fire_jade_glass.name=Vitral de Jade de Fogo
+tile.gemsandtreasures:void_jade_glass.name=Vitral de Jade do Vazio
+tile.gemsandtreasures:white_jade_glass.name=Vitral de Jade Branca
+tile.gemsandtreasures:golden_jade_glass.name=Vitral de Jade Dourada
+tile.gemsandtreasures:rainbow_jade_glass.name=Vitral de Jade Colorida
+
+tile.gemsandtreasures:jade_ore.name=Minério de Jade
+tile.gemsandtreasures:fire_jade_ore.name=Minério de Jade de Fogo
+tile.gemsandtreasures:void_jade_ore.name=Minério de Jade do Vazio
+
+tile.gemsandtreasures:jade_raw.name=Pedra Bruta
+tile.gemsandtreasures:jade_raw1.name=Pedra Bruta
+tile.gemsandtreasures:jade_raw2.name=Pedra Bruta
+tile.gemsandtreasures:jade_raw_white.name=Pedra Brilhante
+tile.gemsandtreasures:jade_raw_golden.name=Pedra Brilhante
+tile.gemsandtreasures:fire_jade_raw.name=Terra do Nether?
+tile.gemsandtreasures:fire_jade_raw1.name=Terra do Nether?
+tile.gemsandtreasures:fire_jade_raw2.name=Terra do Nether?
+tile.gemsandtreasures:void_jade_raw.name=Pedra do Fim Misteriosa
+tile.gemsandtreasures:void_jade_raw1.name=Pedra do Fim Misteriosa
+tile.gemsandtreasures:void_jade_raw2.name=Pedra do Fim Misteriosa
+
+item.gemsandtreasures:ruby.name=Ruby
+tile.gemsandtreasures:ruby_ore.name=Minério de Ruby
+tile.gemsandtreasures:ruby_block.name=Bloco de Ruby
+
+item.gemsandtreasures:amethyst.name=Ametista
+tile.gemsandtreasures:amethyst_ore.name=Minério de Ametista
+tile.gemsandtreasures:amethyst_block.name=Bloco de Ametista
+
+item.gemsandtreasures:glowing_gem.name=Gema Brilhante
+tile.gemsandtreasures:glowing_gem_ore.name=Minério de Gema Brilhante
+tile.gemsandtreasures:glowing_gem_block.name=Bloco de Gema Brilhante
+tile.gemsandtreasures:glowing_gem_glass.name=Vitral de Gema Brilhante
+tile.gemsandtreasures:glowing_glass.name=Vidro Brilhante
+
+item.gemsandtreasures:topaz.name=Topázio
+tile.gemsandtreasures:topaz_ore.name=Minério de Topázio
+tile.gemsandtreasures:topaz_dirt_ore.name=Minério de Topázio
+tile.gemsandtreasures:topaz_soul_sand_ore.name=Minério de Topázio
+tile.gemsandtreasures:topaz_block.name=Bloco de Topázio
+
+item.gemsandtreasures:aquamarine.name=Água-marinha
+tile.gemsandtreasures:aquamarine_ore.name=Minério de Água-marinha
+tile.gemsandtreasures:aquamarine_clay_ore.name=Minério de Água-marinha
+tile.gemsandtreasures:aquamarine_block.name=Block de Água-marinha
+
+item.gemsandtreasures:pink_diamond.name=Diamante Rosa
+
+item.gemsandtreasures:crystal.name=Cristal
+tile.gemsandtreasures:crystal_ore.name=Minério de Cristal
+tile.gemsandtreasures:crystal_block.name=Bloco de Cristal
+
+item.gemsandtreasures:sapphire.name=Safira
+tile.gemsandtreasures:sapphire_ore.name=Minério de Safira
+tile.gemsandtreasures:sapphire_block.name=Bloco de Safira
+
+entity.gemsandtreasures:dark_ghast.name=Fantasma Obscuro

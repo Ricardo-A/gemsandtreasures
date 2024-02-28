@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "type": "forge:ore_dict",
+	  "ore": "blockWhiteJade"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:white_jade",
+	"count": 9
+  }
+}

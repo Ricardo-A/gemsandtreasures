@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "gemTigersEye"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:tigers_eye_glass",
+    "count": 8
+  }
+}

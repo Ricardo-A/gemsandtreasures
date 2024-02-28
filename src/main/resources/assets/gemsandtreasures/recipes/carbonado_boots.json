@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "C C",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "gemCarbonado"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:carbonado_boots"
+  }
+}

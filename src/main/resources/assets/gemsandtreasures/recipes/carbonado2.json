@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "shardCarbonado"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:carbonado"
+  }
+}

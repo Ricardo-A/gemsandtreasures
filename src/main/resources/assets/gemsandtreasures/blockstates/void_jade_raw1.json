@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "gemsandtreasures:blocks/void_jade_raw1",
+        "textures": {
+        	"all": "gemsandtreasures:blocks/void_jade_raw1"
+    	}
+    },
+    "variants": {
+		"normal": { "model" : "cube_all" },
+		"inventory": { "model" : "cube_all" }
+    }
+}

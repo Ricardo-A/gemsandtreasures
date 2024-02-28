@@ -1,0 +1,30 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "PEP",
+    "GTG",
+    "PBP"
+  ],
+  "key": {
+    "T": {
+      "type": "forge:ore_dict",
+      "ore": "gemTigersEye"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "B": {
+      "item": "minecraft:bed",
+      "data": 14
+    },
+    "G": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:scroll_of_return"
+  }
+}

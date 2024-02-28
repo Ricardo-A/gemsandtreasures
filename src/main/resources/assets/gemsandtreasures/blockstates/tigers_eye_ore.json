@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube_column",
+        "textures": {
+        	"end": "gemsandtreasures:blocks/tigers_eye_ore",
+        	"side": "gemsandtreasures:blocks/tigers_eye_ore_side"
+    	}
+    },
+    "variants": {
+		"normal": [{ "y": 0 }, { "y": 90 }, { "y": 180 }, { "y": 270 }, { "x": 0 }, { "x": 90 }, { "x": 180 }, { "x": 270 }],
+    	"inventory": { 
+    		"model" : "cube_column",
+    		"textures": {
+	        	"end": "gemsandtreasures:blocks/tigers_eye_ore",
+	        	"side": "gemsandtreasures:blocks/tigers_eye_ore_side"
+	    	}
+    	}
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "type": "forge:ore_dict",
+	  "ore": "blockBlackMarble"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:black_marble",
+	"count": 9
+  }
+}

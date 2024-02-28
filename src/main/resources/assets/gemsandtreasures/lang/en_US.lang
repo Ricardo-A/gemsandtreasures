@@ -1,0 +1,119 @@
+itemGroup.gemsandtreasures=Gems and Treasures
+
+item.gemsandtreasures:carbonado.name=Carbonado
+item.gemsandtreasures:carbonado_raw.name=Raw Carbonado
+item.gemsandtreasures:carbonado_cluster.name=Carbonado Cluster
+item.gemsandtreasures:carbonado_shard.name=Carbonado Shard
+
+item.gemsandtreasures:carbonado_pickaxe.name=Carbonado Pickaxe
+item.gemsandtreasures:carbonado_axe.name=Carbonado Axe
+item.gemsandtreasures:carbonado_shovel.name=Carbonado Shovel
+item.gemsandtreasures:carbonado_hoe.name=Carbonado Hoe
+item.gemsandtreasures:carbonado_sword.name=Carbonado Sword
+
+item.gemsandtreasures:carbonado_helmet.name=Carbonado Helmet
+item.gemsandtreasures:carbonado_chestplate.name=Carbonado Chestplate
+item.gemsandtreasures:carbonado_leggings.name=Carbonado Leggings
+item.gemsandtreasures:carbonado_boots.name=Carbonado Boots
+
+tile.gemsandtreasures:carbonado_ore.name=Carbonado Ore
+tile.gemsandtreasures:carbonado_block.name=Carbonado Block
+tile.gemsandtreasures:carbonado_glass.name=Carbonado Stained Glass
+
+item.gemsandtreasures:marble.name=Marble
+item.gemsandtreasures:black_marble.name=Black Marble
+
+tile.gemsandtreasures:marble_block.name=Marble Block
+tile.gemsandtreasures:marble_block1.name=Marble Block
+tile.gemsandtreasures:marble_block2.name=Marble Block
+tile.gemsandtreasures:marble_block3.name=Marble Block
+tile.gemsandtreasures:marble_block4.name=Marble Block
+tile.gemsandtreasures:black_marble_block.name=Black Marble Block
+tile.gemsandtreasures:black_marble_block1.name=Black Marble Block
+tile.gemsandtreasures:black_marble_block2.name=Black Marble Block
+tile.gemsandtreasures:black_marble_block3.name=Black Marble Block
+tile.gemsandtreasures:black_marble_block4.name=Black Marble Block
+tile.gemsandtreasures:marble_ore.name=Marble Ore
+tile.gemsandtreasures:black_marble_ore.name=Black Marble Ore
+
+item.gemsandtreasures:tigers_eye.name=Tiger's Eye
+item.gemsandtreasures:scroll_of_return.name=Scroll of Return
+
+tile.gemsandtreasures:tigers_eye_block.name=Tiger's Eye Block
+tile.gemsandtreasures:tigers_eye_glass.name=Tiger's Eye Glass
+tile.gemsandtreasures:tigers_eye_ore.name=Tiger's Eye Ore
+tile.gemsandtreasures:tigers_eye_sand_ore.name=Tiger's Eye Ore
+
+item.gemsandtreasures:jade.name=Jade
+item.gemsandtreasures:fire_jade.name=Fire Jade
+item.gemsandtreasures:void_jade.name=Void Jade
+item.gemsandtreasures:white_jade.name=White Jade
+item.gemsandtreasures:golden_jade.name=Golden Jade
+item.gemsandtreasures:rainbow_jade.name=Rainbow Jade
+
+tile.gemsandtreasures:jade_block.name=Jade Block
+tile.gemsandtreasures:fire_jade_block.name=Fire Jade Block
+tile.gemsandtreasures:void_jade_block.name=Void Jade Block
+tile.gemsandtreasures:white_jade_block.name=White Jade Block
+tile.gemsandtreasures:golden_jade_block.name=Golden Jade Block
+tile.gemsandtreasures:rainbow_jade_block.name=Rainbow Jade Block
+
+tile.gemsandtreasures:jade_glass.name=Jade Glass
+tile.gemsandtreasures:fire_jade_glass.name=Fire Jade Glass
+tile.gemsandtreasures:void_jade_glass.name=Void Jade Glass
+tile.gemsandtreasures:white_jade_glass.name=White Jade Glass
+tile.gemsandtreasures:golden_jade_glass.name=Golden Jade Glass
+tile.gemsandtreasures:rainbow_jade_glass.name=Rainbow Jade Glass
+
+tile.gemsandtreasures:jade_ore.name=Jade Ore
+tile.gemsandtreasures:fire_jade_ore.name=Fire Jade Ore
+tile.gemsandtreasures:void_jade_ore.name=Void Jade Ore
+
+tile.gemsandtreasures:jade_raw.name=Raw Stone
+tile.gemsandtreasures:jade_raw1.name=Raw Stone
+tile.gemsandtreasures:jade_raw2.name=Raw Stone
+tile.gemsandtreasures:jade_raw_white.name=Shiny Stone
+tile.gemsandtreasures:jade_raw_golden.name=Shiny Stone
+tile.gemsandtreasures:fire_jade_raw.name=Netherrack?
+tile.gemsandtreasures:fire_jade_raw1.name=Netherrack?
+tile.gemsandtreasures:fire_jade_raw2.name=Netherrack?
+tile.gemsandtreasures:void_jade_raw.name=Mysterious End Stone
+tile.gemsandtreasures:void_jade_raw1.name=Mysterious End Stone
+tile.gemsandtreasures:void_jade_raw2.name=Mysterious End Stone
+
+item.gemsandtreasures:ruby.name=Ruby
+tile.gemsandtreasures:ruby_ore.name=Ruby Ore
+tile.gemsandtreasures:ruby_block.name=Ruby Block
+
+item.gemsandtreasures:amethyst.name=Amethyst
+tile.gemsandtreasures:amethyst_ore.name=Amethyst Ore
+tile.gemsandtreasures:amethyst_block.name=Amethyst Block
+
+item.gemsandtreasures:glowing_gem.name=Glowing Gem
+tile.gemsandtreasures:glowing_gem_ore.name=Glowing Gem Ore
+tile.gemsandtreasures:glowing_gem_block.name=Glowing Gem Block
+tile.gemsandtreasures:glowing_gem_glass.name=Glowing Gem Glass
+tile.gemsandtreasures:glowing_glass.name=Glowing Glass
+
+item.gemsandtreasures:topaz.name=Topaz
+tile.gemsandtreasures:topaz_ore.name=Topaz Ore
+tile.gemsandtreasures:topaz_dirt_ore.name=Topaz Ore
+tile.gemsandtreasures:topaz_soul_sand_ore.name=Topaz Ore
+tile.gemsandtreasures:topaz_block.name=Topaz Block
+
+item.gemsandtreasures:aquamarine.name=Aquamarine
+tile.gemsandtreasures:aquamarine_ore.name=Aquamarine Ore
+tile.gemsandtreasures:aquamarine_clay_ore.name=Aquamarine Ore
+tile.gemsandtreasures:aquamarine_block.name=Aquamarine Block
+
+item.gemsandtreasures:pink_diamond.name=Pink Diamond
+
+item.gemsandtreasures:crystal.name=Crystal
+tile.gemsandtreasures:crystal_ore.name=Crystal Ore
+tile.gemsandtreasures:crystal_block.name=Crystal Block
+
+item.gemsandtreasures:sapphire.name=Sapphire
+tile.gemsandtreasures:sapphire_ore.name=Sapphire Ore
+tile.gemsandtreasures:sapphire_block.name=Sapphire Block
+
+entity.gemsandtreasures:dark_ghast.name=Dark Ghast

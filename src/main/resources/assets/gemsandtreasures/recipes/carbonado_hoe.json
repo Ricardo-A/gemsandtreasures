@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "CC",
+    " S",
+    " S"
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "gemCarbonado"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:carbonado_hoe"
+  }
+}

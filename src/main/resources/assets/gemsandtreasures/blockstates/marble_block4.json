@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "gemsandtreasures:blocks/marble_block4",
+        "textures": {
+        	"all": "gemsandtreasures:blocks/marble_block4"
+    	}
+    },
+    "variants": {
+		"normal": { "model" : "cube_all" },
+		"inventory": { "model" : "cube_all" }
+    }
+}

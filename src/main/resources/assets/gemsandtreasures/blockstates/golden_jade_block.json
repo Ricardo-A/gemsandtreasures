@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "gemsandtreasures:blocks/golden_jade_block",
+        "textures": {
+        	"all": "gemsandtreasures:blocks/golden_jade_block"
+    	}
+    },
+    "variants": {
+		"normal": { "model" : "cube_all" },
+		"inventory": { "model" : "cube_all" }
+    }
+}

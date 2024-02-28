@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "gemWhiteJade"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:white_jade_glass",
+    "count": 8
+  }
+}
