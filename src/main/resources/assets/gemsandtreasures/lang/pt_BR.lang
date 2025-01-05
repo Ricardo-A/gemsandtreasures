@@ -7,7 +7,7 @@ item.gemsandtreasures:carbonado_shard.name=Fragmento de Carbonado
 
 item.gemsandtreasures:carbonado_pickaxe.name=Picareta de Carbonado
 item.gemsandtreasures:carbonado_axe.name=Machado de Carbonado
-item.gemsandtreasures:carbonado_shovel.name=PÈ de Carbonado
+item.gemsandtreasures:carbonado_shovel.name=PÔøΩ de Carbonado
 item.gemsandtreasures:carbonado_hoe.name=Enxada de Carbonado
 item.gemsandtreasures:carbonado_sword.name=Espada de Carbonado
 
@@ -16,33 +16,33 @@ item.gemsandtreasures:carbonado_chestplate.name=Peitoral de Carbonado
 item.gemsandtreasures:carbonado_leggings.name=Perneira de Carbonado
 item.gemsandtreasures:carbonado_boots.name=Botas de Carbonado
 
-tile.gemsandtreasures:carbonado_ore.name=MinÈrio de Carbonado
+tile.gemsandtreasures:carbonado_ore.name=Min√©rio de Carbonado
 tile.gemsandtreasures:carbonado_block.name=Bloco de Carbonado
 tile.gemsandtreasures:carbonado_glass.name=Vitral de Carbonado
 
-item.gemsandtreasures:marble.name=M·rmore
-item.gemsandtreasures:black_marble.name=M·rmore Negro
+item.gemsandtreasures:marble.name=M√°rmore
+item.gemsandtreasures:black_marble.name=M√°rmore Negro
 
-tile.gemsandtreasures:marble_block.name=Bloco de M·rmore
-tile.gemsandtreasures:marble_block1.name=Bloco de M·rmore
-tile.gemsandtreasures:marble_block2.name=Bloco de M·rmore
-tile.gemsandtreasures:marble_block3.name=Bloco de M·rmore
-tile.gemsandtreasures:marble_block4.name=Bloco de M·rmore
-tile.gemsandtreasures:black_marble_block.name=Bloco de M·rmore Negro
-tile.gemsandtreasures:black_marble_block1.name=Bloco de M·rmore Negro
-tile.gemsandtreasures:black_marble_block2.name=Bloco de M·rmore Negro
-tile.gemsandtreasures:black_marble_block3.name=Bloco de M·rmore Negro
-tile.gemsandtreasures:black_marble_block4.name=Bloco de M·rmore Negro
-tile.gemsandtreasures:marble_ore.name=MinÈrio de M·rmore
-tile.gemsandtreasures:black_marble_ore.name=MinÈrio de M·rmore Negro
+tile.gemsandtreasures:marble_block.name=Bloco de M√°rmore
+tile.gemsandtreasures:marble_block1.name=Bloco de M√°rmore
+tile.gemsandtreasures:marble_block2.name=Bloco de M√°rmore
+tile.gemsandtreasures:marble_block3.name=Bloco de M√°rmore
+tile.gemsandtreasures:marble_block4.name=Bloco de M√°rmore
+tile.gemsandtreasures:black_marble_block.name=Bloco de M√°rmore Negro
+tile.gemsandtreasures:black_marble_block1.name=Bloco de M√°rmore Negro
+tile.gemsandtreasures:black_marble_block2.name=Bloco de M√°rmore Negro
+tile.gemsandtreasures:black_marble_block3.name=Bloco de M√°rmore Negro
+tile.gemsandtreasures:black_marble_block4.name=Bloco de M√°rmore Negro
+tile.gemsandtreasures:marble_ore.name=Min√©rio de M√°rmore
+tile.gemsandtreasures:black_marble_ore.name=Min√©rio de M√°rmore Negro
 
 item.gemsandtreasures:tigers_eye.name=Olho de Tigre
 item.gemsandtreasures:scroll_of_return.name=Pergaminho do Retorno
 
 tile.gemsandtreasures:tigers_eye_block.name=Bloco de Olho de Tigre
 tile.gemsandtreasures:tigers_eye_glass.name=Vitral de Olho de Tigre
-tile.gemsandtreasures:tigers_eye_ore.name=MinÈrio de Olho de Tigre
-tile.gemsandtreasures:tigers_eye_sand_ore.name=MinÈrio de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_ore.name=Min√©rio de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_sand_ore.name=Min√©rio de Olho de Tigre
 
 item.gemsandtreasures:jade.name=Jade
 item.gemsandtreasures:fire_jade.name=Jade de Fogo
@@ -65,9 +65,9 @@ tile.gemsandtreasures:white_jade_glass.name=Vitral de Jade Branca
 tile.gemsandtreasures:golden_jade_glass.name=Vitral de Jade Dourada
 tile.gemsandtreasures:rainbow_jade_glass.name=Vitral de Jade Colorida
 
-tile.gemsandtreasures:jade_ore.name=MinÈrio de Jade
-tile.gemsandtreasures:fire_jade_ore.name=MinÈrio de Jade de Fogo
-tile.gemsandtreasures:void_jade_ore.name=MinÈrio de Jade do Vazio
+tile.gemsandtreasures:jade_ore.name=Min√©rio de Jade
+tile.gemsandtreasures:fire_jade_ore.name=Min√©rio de Jade de Fogo
+tile.gemsandtreasures:void_jade_ore.name=Min√©rio de Jade do Vazio
 
 tile.gemsandtreasures:jade_raw.name=Pedra Bruta
 tile.gemsandtreasures:jade_raw1.name=Pedra Bruta
@@ -82,38 +82,69 @@ tile.gemsandtreasures:void_jade_raw1.name=Pedra do Fim Misteriosa
 tile.gemsandtreasures:void_jade_raw2.name=Pedra do Fim Misteriosa
 
 item.gemsandtreasures:ruby.name=Ruby
-tile.gemsandtreasures:ruby_ore.name=MinÈrio de Ruby
+tile.gemsandtreasures:ruby_ore.name=Min√©rio de Ruby
 tile.gemsandtreasures:ruby_block.name=Bloco de Ruby
 
 item.gemsandtreasures:amethyst.name=Ametista
-tile.gemsandtreasures:amethyst_ore.name=MinÈrio de Ametista
+tile.gemsandtreasures:amethyst_ore.name=Min√©rio de Ametista
 tile.gemsandtreasures:amethyst_block.name=Bloco de Ametista
 
 item.gemsandtreasures:glowing_gem.name=Gema Brilhante
-tile.gemsandtreasures:glowing_gem_ore.name=MinÈrio de Gema Brilhante
+tile.gemsandtreasures:glowing_gem_ore.name=Min√©rio de Gema Brilhante
 tile.gemsandtreasures:glowing_gem_block.name=Bloco de Gema Brilhante
 tile.gemsandtreasures:glowing_gem_glass.name=Vitral de Gema Brilhante
 tile.gemsandtreasures:glowing_glass.name=Vidro Brilhante
 
-item.gemsandtreasures:topaz.name=Top·zio
-tile.gemsandtreasures:topaz_ore.name=MinÈrio de Top·zio
-tile.gemsandtreasures:topaz_dirt_ore.name=MinÈrio de Top·zio
-tile.gemsandtreasures:topaz_soul_sand_ore.name=MinÈrio de Top·zio
-tile.gemsandtreasures:topaz_block.name=Bloco de Top·zio
+item.gemsandtreasures:topaz.name=Top√°zio
+tile.gemsandtreasures:topaz_ore.name=Min√©rio de Top√°zio
+tile.gemsandtreasures:topaz_dirt_ore.name=Min√©rio de Top√°zio
+tile.gemsandtreasures:topaz_soul_sand_ore.name=Min√©rio de Top√°zio
+tile.gemsandtreasures:topaz_block.name=Bloco de Top√°zio
 
-item.gemsandtreasures:aquamarine.name=¡gua-marinha
-tile.gemsandtreasures:aquamarine_ore.name=MinÈrio de ¡gua-marinha
-tile.gemsandtreasures:aquamarine_clay_ore.name=MinÈrio de ¡gua-marinha
-tile.gemsandtreasures:aquamarine_block.name=Block de ¡gua-marinha
+item.gemsandtreasures:aquamarine.name=√Ågua-marinha
+tile.gemsandtreasures:aquamarine_ore.name=Min√©rio de √Ågua-marinha
+tile.gemsandtreasures:aquamarine_clay_ore.name=Min√©rio de √Ågua-marinha
+tile.gemsandtreasures:aquamarine_block.name=Block de √Ågua-marinha
 
 item.gemsandtreasures:pink_diamond.name=Diamante Rosa
+tile.gemsandtreasures:pink_diamond_ore.name=Min√©rio de Diamante Rosa
+tile.gemsandtreasures:pink_diamond_block.name=Bloco de Diamante Rosa
 
 item.gemsandtreasures:crystal.name=Cristal
-tile.gemsandtreasures:crystal_ore.name=MinÈrio de Cristal
+tile.gemsandtreasures:crystal_ore.name=Min√©rio de Cristal
 tile.gemsandtreasures:crystal_block.name=Bloco de Cristal
 
+item.gemsandtreasures:moon_crystal.name=Cristal da Lua
+tile.gemsandtreasures:moon_crystal_ore.name=Min√©rio de Cristal da Lua
+tile.gemsandtreasures:moon_crystal_block.name=Bloco de Cristal da Lua
+
 item.gemsandtreasures:sapphire.name=Safira
-tile.gemsandtreasures:sapphire_ore.name=MinÈrio de Safira
+tile.gemsandtreasures:sapphire_ore.name=Min√©rio de Safira
 tile.gemsandtreasures:sapphire_block.name=Bloco de Safira
+
+item.gemsandtreasures:agate.name=√Ågata
+tile.gemsandtreasures:agate_ore.name=Min√©rio de √Ågata
+tile.gemsandtreasures:agate_block.name=Bloco de √Ågata
+
+item.gemsandtreasures:onyx.name=√înix
+tile.gemsandtreasures:onyx_ore.name=Min√©rio de √înix
+tile.gemsandtreasures:onyx_block.name=Bloco de √înix
+tile.gemsandtreasures:onyx_soulsand_ore.name=Min√©rio de √înix
+
+item.gemsandtreasures:rose_quartz.name=Quartzo Rosa
+tile.gemsandtreasures:rose_quartz_ore.name=Min√©rio de Quartzo Rosa
+tile.gemsandtreasures:rose_quartz_block.name=Bloco de Quartzo Rosa
+
+item.gemsandtreasures:coal_stone.name=Carv√£o Petrificado
+tile.gemsandtreasures:coal_stone_ore.name=Min√©rio de Carv√£o Petrificado
+
+item.gemsandtreasures:petrified_slimeball.name=Bola de slime petrificada
+tile.gemsandtreasures:petrified_slimeball_ore.name=Min√©rio de bola de slime
+tile.gemsandtreasures:petrified_slimeball_block.name=Bloco de bola de slime
+
+item.gemsandtreasures:blood_diamond.name=Diamante Sangrento
+item.gemsandtreasures:perfect_diamond.name=Diamante Perfeito
+item.gemsandtreasures:royal_diamond.name=Diamante Real
+item.gemsandtreasures:golden_diamond.name=Diamante Dourado
 
 entity.gemsandtreasures:dark_ghast.name=Fantasma Obscuro

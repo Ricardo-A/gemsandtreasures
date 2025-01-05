@@ -1,0 +1,6 @@
+[02:59:31] [Client thread/ERROR] [net.minecraft.client.resources.ResourceIndex]: Can't find the resource index file: assets\indexes\1.12.json
+[02:59:31] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player953
+[02:59:33] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
+[02:59:33] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
+[02:59:33] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[02:59:33] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.000s

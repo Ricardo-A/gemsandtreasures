@@ -1,10 +1,6 @@
 {
-    "defaults": {
-        "model": "cube_all",
-        "textures": {
-        	"top": "gemsandtreasures:blocks/rose_quartz_block_top",
-        	"bottom": "gemsandtreasures:blocks/rose_quartz_block_bottom",
-        	"side": "gemsandtreasures:blocks/rose_quartz_block_side"
-    	}
+    "variants": {
+        "normal":   { "model": "gemsandtreasures:rose_quartz_block" },
+        "inventory": { "model" : "gemsandtreasures:rose_quartz_block" }
     }
 }

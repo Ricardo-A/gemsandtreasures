@@ -1,14 +1,14 @@
 [
 {
   "modid": "gemsandtreasures",
-  "name": "Gems And Treasures",
-  "description": "This mod itends to add new gems to the game",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "name": "Gems and Treasures",
+  "description": "This mod provides new gems for the game.",
+  "version": "0.0.8",
+  "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
   "authorList": ["Detoner"],
-  "credits": "",
+  "credits": "Detoner",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

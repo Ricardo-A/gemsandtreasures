@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "gemsandtreasures:blocks/rose_quartz_block_bottom",
+        "top": "gemsandtreasures:blocks/rose_quartz_block_top",
+        "side": "gemsandtreasures:blocks/rose_quartz_block_side"
+    }
+}

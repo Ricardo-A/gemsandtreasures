@@ -107,13 +107,44 @@ tile.gemsandtreasures:aquamarine_clay_ore.name=Aquamarine Ore
 tile.gemsandtreasures:aquamarine_block.name=Aquamarine Block
 
 item.gemsandtreasures:pink_diamond.name=Pink Diamond
+tile.gemsandtreasures:pink_diamond_ore.name=Pink Diamond Ore
+tile.gemsandtreasures:pink_diamond_block.name=Pink Diamond Block
 
 item.gemsandtreasures:crystal.name=Crystal
 tile.gemsandtreasures:crystal_ore.name=Crystal Ore
 tile.gemsandtreasures:crystal_block.name=Crystal Block
 
+item.gemsandtreasures:moon_crystal.name=Moon Crystal
+tile.gemsandtreasures:moon_crystal_ore.name=Moon Crystal Ore
+tile.gemsandtreasures:moon_crystal_block.name=Moon Crystal Block
+
 item.gemsandtreasures:sapphire.name=Sapphire
 tile.gemsandtreasures:sapphire_ore.name=Sapphire Ore
 tile.gemsandtreasures:sapphire_block.name=Sapphire Block
+
+item.gemsandtreasures:agate.name=Agate
+tile.gemsandtreasures:agate_ore.name=Agate Ore
+tile.gemsandtreasures:agate_block.name=Agate Block
+
+item.gemsandtreasures:onyx.name=Onyx
+tile.gemsandtreasures:onyx_ore.name=Onyx Ore
+tile.gemsandtreasures:onyx_block.name=Onyx Block
+tile.gemsandtreasures:onyx_soulsand_ore.name=Onyx Ore
+
+item.gemsandtreasures:rose_quartz.name=Rose Quartz
+tile.gemsandtreasures:rose_quartz_ore.name=Rose Quartz Ore
+tile.gemsandtreasures:rose_quartz_block.name=Rose Quartz Block
+
+item.gemsandtreasures:coal_stone.name=Coal Stone
+tile.gemsandtreasures:coal_stone_ore.name=Coal Stone Ore
+
+item.gemsandtreasures:petrified_slimeball.name=Petrified Slimeball
+tile.gemsandtreasures:petrified_slimeball_ore.name=Petrified Slimeball Ore
+tile.gemsandtreasures:petrified_slimeball_block.name=Petrified Slimeball Block
+
+item.gemsandtreasures:blood_diamond.name=Blood Diamond
+item.gemsandtreasures:perfect_diamond.name=Perfect Diamond
+item.gemsandtreasures:royal_diamond.name=Royal Diamond
+item.gemsandtreasures:golden_diamond.name=Golden Diamond
 
 entity.gemsandtreasures:dark_ghast.name=Dark Ghast
