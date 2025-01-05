@@ -49,21 +49,21 @@ item.gemsandtreasures:fire_jade.name=Fire Jade
 item.gemsandtreasures:void_jade.name=Void Jade
 item.gemsandtreasures:white_jade.name=White Jade
 item.gemsandtreasures:golden_jade.name=Golden Jade
-item.gemsandtreasures:rainbow_jade.name=Rainbow Jade
+item.gemsandtreasures:prismatic_jade.name=Prismatic Jade
 
 tile.gemsandtreasures:jade_block.name=Jade Block
 tile.gemsandtreasures:fire_jade_block.name=Fire Jade Block
 tile.gemsandtreasures:void_jade_block.name=Void Jade Block
 tile.gemsandtreasures:white_jade_block.name=White Jade Block
 tile.gemsandtreasures:golden_jade_block.name=Golden Jade Block
-tile.gemsandtreasures:rainbow_jade_block.name=Rainbow Jade Block
+tile.gemsandtreasures:prismatic_jade_block.name=Prismatic Jade Block
 
 tile.gemsandtreasures:jade_glass.name=Jade Glass
 tile.gemsandtreasures:fire_jade_glass.name=Fire Jade Glass
 tile.gemsandtreasures:void_jade_glass.name=Void Jade Glass
 tile.gemsandtreasures:white_jade_glass.name=White Jade Glass
 tile.gemsandtreasures:golden_jade_glass.name=Golden Jade Glass
-tile.gemsandtreasures:rainbow_jade_glass.name=Rainbow Jade Glass
+tile.gemsandtreasures:prismatic_jade_glass.name=Prismatic Jade Glass
 
 tile.gemsandtreasures:jade_ore.name=Jade Ore
 tile.gemsandtreasures:fire_jade_ore.name=Fire Jade Ore

@@ -1,6 +1,6 @@
 package com.github.detoner.gemsandtreasures.addon.jei;
 
-/*import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.github.detoner.gemsandtreasures.fallinganvil.FallingAnvilCrafting;
@@ -21,4 +21,4 @@ public class FallingAnvilRecipeMaker {
 
 		return recipes;
 	}
-}*/
+}

@@ -8,10 +8,10 @@
   "key": {
     "C": {
       "type": "forge:ore_dict",
-      "ore": "gemRainbowJade"
+      "ore": "gemPrismaticJade"
     }
   },
   "result": {
-    "item": "gemsandtreasures:rainbow_jade_block"
+    "item": "gemsandtreasures:prismatic_jade_block"
   }
 }

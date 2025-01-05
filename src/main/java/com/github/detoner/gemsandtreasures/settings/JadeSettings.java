@@ -35,9 +35,9 @@ public class JadeSettings {
 		@Comment("True if golden (epic) jade should be available in the game.")
 		public boolean goldenJadeEnabled = true;
 		
-		@Name("Enable Rainbow Jade")
-		@Comment("True if rainbow (legendary) jade should be available in the game.")
-		public boolean rainbowJadeEnabled = true;
+		@Name("Enable Prismatic Jade")
+		@Comment("True if prismatic (legendary) jade should be available in the game.")
+		public boolean prismaticJadeEnabled = true;
 	}
 	
 	public static class JadeLootSettingsClass {
@@ -145,7 +145,7 @@ public class JadeSettings {
 				"5 minecraft:iron_block 1",
 				"1 minecraft:diamond_block 1",
 				"1 gemsandtreasures:jade_block 1",
-				"1 gemsandtreasures:rainbow_jade 1",
+				"1 gemsandtreasures:prismatic_jade 1",
 				"1 gemsandtreasures:white_jade 2",
 				"1 gemsandtreasures:fire_jade 1",
 				"1 gemsandtreasures:void_jade 1",
@@ -165,9 +165,9 @@ public class JadeSettings {
 				"2 minecraft:sea_lantern 1"
 		};
 		
-		@Name("Rainbow Jade Loot")
-		@Comment("These items can be exchanged for the rainbow jade upon right click.\n weight modid:item:metadata amount")
-		public String[] rainbowJadeLoot = {
+		@Name("Prismatic Jade Loot")
+		@Comment("These items can be exchanged for the prismatic jade upon right click.\n weight modid:item:metadata amount")
+		public String[] prismaticJadeLoot = {
 				"5 minecraft:gold_block 2",
 				"5 minecraft:iron_block 5",
 				"3 minecraft:diamond_block 3",

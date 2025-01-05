@@ -1,9 +1,9 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "gemsandtreasures:blocks/rainbow_jade_glass",
+        "model": "gemsandtreasures:blocks/prismatic_jade_block",
         "textures": {
-        	"all": "gemsandtreasures:blocks/rainbow_jade_glass"
+        	"all": "gemsandtreasures:blocks/prismatic_jade_block"
     	}
     },
     "variants": {

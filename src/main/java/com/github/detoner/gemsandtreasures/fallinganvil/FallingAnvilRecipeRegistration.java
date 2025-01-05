@@ -45,7 +45,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(10);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(1);
 		results.add(result);
 		
@@ -81,7 +81,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(15);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(5);
 		results.add(result);
 		
@@ -117,7 +117,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(4);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(1);
 		results.add(result);
 		
@@ -149,7 +149,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(10);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(1);
 		results.add(result);
 		
@@ -181,7 +181,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(45);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(5);
 		results.add(result);
 		
@@ -213,7 +213,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(5);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(1);
 		results.add(result);
 		
@@ -245,7 +245,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(10);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(1);
 		results.add(result);
 		
@@ -277,7 +277,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(45);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(5);
 		results.add(result);
 		
@@ -309,7 +309,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(5);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(1);
 		results.add(result);
 		
@@ -337,7 +337,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(15);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(5);
 		results.add(result);
 		
@@ -361,7 +361,7 @@ public class FallingAnvilRecipeRegistration {
 		result.setWeight(25);
 		results.add(result);
 		
-		result = new FallingAnvilRecipeResult(RegistrationHandler.rainbow_jade);
+		result = new FallingAnvilRecipeResult(RegistrationHandler.prismatic_jade);
 		result.setWeight(10);
 		results.add(result);
 		

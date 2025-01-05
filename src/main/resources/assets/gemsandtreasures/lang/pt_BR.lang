@@ -49,21 +49,21 @@ item.gemsandtreasures:fire_jade.name=Jade de Fogo
 item.gemsandtreasures:void_jade.name=Jade de Vazio
 item.gemsandtreasures:white_jade.name=Jade Branca
 item.gemsandtreasures:golden_jade.name=Jade Dourada
-item.gemsandtreasures:rainbow_jade.name=Jade Colorida
+item.gemsandtreasures:prismatic_jade.name=Jade Prismática
 
 tile.gemsandtreasures:jade_block.name=Bloco de Jade
 tile.gemsandtreasures:fire_jade_block.name=Bloco de Jade de Fogo
 tile.gemsandtreasures:void_jade_block.name=Bloco de Jade do Vazio
 tile.gemsandtreasures:white_jade_block.name=Bloco de Jade Branca
 tile.gemsandtreasures:golden_jade_block.name=Bloco de Jade Dourada
-tile.gemsandtreasures:rainbow_jade_block.name=Bloco de Jade Colorida
+tile.gemsandtreasures:prismatic_jade_block.name=Bloco de Jade Prismática
 
 tile.gemsandtreasures:jade_glass.name=Vitral de Jade
 tile.gemsandtreasures:fire_jade_glass.name=Vitral de Jade de Fogo
 tile.gemsandtreasures:void_jade_glass.name=Vitral de Jade do Vazio
 tile.gemsandtreasures:white_jade_glass.name=Vitral de Jade Branca
 tile.gemsandtreasures:golden_jade_glass.name=Vitral de Jade Dourada
-tile.gemsandtreasures:rainbow_jade_glass.name=Vitral de Jade Colorida
+tile.gemsandtreasures:prismatic_jade_glass.name=Vitral de Jade Prismática
 
 tile.gemsandtreasures:jade_ore.name=Minério de Jade
 tile.gemsandtreasures:fire_jade_ore.name=Minério de Jade de Fogo

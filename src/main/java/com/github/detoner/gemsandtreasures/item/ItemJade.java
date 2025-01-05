@@ -36,8 +36,8 @@ public class ItemJade extends ItemBase{
 			case "golden_jade":
 				itemStack = LootHandler.goldenJadeLoot.getRandomItem();
 				break;
-			case "rainbow_jade":
-				itemStack = LootHandler.rainbowJadeLoot.getRandomItem();
+			case "prismatic_jade":
+				itemStack = LootHandler.prismaticJadeLoot.getRandomItem();
 				break;
 		}
 		if(itemStack != null && !world.isRemote) {

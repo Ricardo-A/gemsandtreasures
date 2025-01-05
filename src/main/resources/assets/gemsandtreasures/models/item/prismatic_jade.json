@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "gemsandtreasures:items/rainbow_jade"
+    "layer0": "gemsandtreasures:items/prismatic_jade"
   }
 }
 

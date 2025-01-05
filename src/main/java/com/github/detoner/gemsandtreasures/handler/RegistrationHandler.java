@@ -106,14 +106,14 @@ public class RegistrationHandler {
 	public static ItemJade void_jade;
 	public static ItemJade white_jade;
 	public static ItemJade golden_jade;
-	public static ItemJade rainbow_jade;
+	public static ItemJade prismatic_jade;
 	
 	public static Block jade_block;
 	public static Block fire_jade_block;
 	public static Block void_jade_block;
 	public static Block white_jade_block;
 	public static Block golden_jade_block;
-	public static Block rainbow_jade_block;
+	public static Block prismatic_jade_block;
 	
 	public static Block jade_ore;
 	public static Block fire_jade_ore;
@@ -136,7 +136,7 @@ public class RegistrationHandler {
 	public static Block void_jade_glass;
 	public static Block white_jade_glass;
 	public static Block golden_jade_glass;
-	public static Block rainbow_jade_glass;
+	public static Block prismatic_jade_glass;
 	//end jade
 	
 	//start ruby
@@ -334,9 +334,9 @@ public class RegistrationHandler {
 				golden_jade = new ItemJade("golden_jade");
 				items.add(golden_jade);
 			}
-			if(JadeSettings.settings.rainbowJadeEnabled) {
-				rainbow_jade = new ItemJade("rainbow_jade");
-				items.add(rainbow_jade);
+			if(JadeSettings.settings.prismaticJadeEnabled) {
+				prismatic_jade = new ItemJade("prismatic_jade");
+				items.add(prismatic_jade);
 			}
 		}
 		//end jade
@@ -586,11 +586,11 @@ public class RegistrationHandler {
 				blocks.add(jade_raw_golden);
 			}
 			
-			if(JadeSettings.settings.rainbowJadeEnabled) {
-				rainbow_jade_block = new BlockBase(Material.ROCK, "rainbow_jade_block").setHardness(5.0f).setResistance(8.0f);
-				blocks.add(rainbow_jade_block);
-				rainbow_jade_glass = new BlockBaseGlass(Material.GLASS, "rainbow_jade_glass").setHardness(1f).setResistance(1f).setLightOpacity(15);
-				blocks.add(rainbow_jade_glass);
+			if(JadeSettings.settings.prismaticJadeEnabled) {
+				prismatic_jade_block = new BlockBase(Material.ROCK, "prismatic_jade_block").setHardness(5.0f).setResistance(8.0f);
+				blocks.add(prismatic_jade_block);
+				prismatic_jade_glass = new BlockBaseGlass(Material.GLASS, "prismatic_jade_glass").setHardness(1f).setResistance(1f).setLightOpacity(15);
+				blocks.add(prismatic_jade_glass);
 			}
 		}
 		//end jade

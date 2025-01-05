@@ -3,11 +3,11 @@
   "ingredients": [
     {
 	  "type": "forge:ore_dict",
-	  "ore": "blockRainbowJade"
+	  "ore": "blockPrismaticJade"
     }
   ],
   "result": {
-    "item": "gemsandtreasures:rainbow_jade",
+    "item": "gemsandtreasures:prismatic_jade",
 	"count": 9
   }
 }

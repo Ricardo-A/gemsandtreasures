@@ -13,7 +13,7 @@ public class LootHandler {
 	public static JadeLoot voidJadeLoot;
 	public static JadeLoot whiteJadeLoot;
 	public static JadeLoot goldenJadeLoot;
-	public static JadeLoot rainbowJadeLoot;
+	public static JadeLoot prismaticJadeLoot;
 	
 	public static void loadJadeLoot() {
 		jadeLoot = new JadeLoot(JadeSettings.exchangeSettings.jadeLoot);
@@ -21,6 +21,6 @@ public class LootHandler {
 		voidJadeLoot = new JadeLoot(JadeSettings.exchangeSettings.voidJadeLoot);
 		whiteJadeLoot = new JadeLoot(JadeSettings.exchangeSettings.whiteJadeLoot);
 		goldenJadeLoot = new JadeLoot(JadeSettings.exchangeSettings.goldenJadeLoot);
-		rainbowJadeLoot = new JadeLoot(JadeSettings.exchangeSettings.rainbowJadeLoot);
+		prismaticJadeLoot = new JadeLoot(JadeSettings.exchangeSettings.prismaticJadeLoot);
 	}
 }

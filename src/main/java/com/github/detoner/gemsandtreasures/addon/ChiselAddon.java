@@ -1,6 +1,6 @@
 package com.github.detoner.gemsandtreasures.addon;
 
-/*import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.github.detoner.gemsandtreasures.GemsAndTreasures;
@@ -121,4 +121,4 @@ public class ChiselAddon {
     private static void addActAddBlockToGroup(String group, ResourceLocation blockRegistryName, int... metas){
         addActAddBlockToGroup(group, blockRegistryName, null, metas);
     }
-}*/
+}

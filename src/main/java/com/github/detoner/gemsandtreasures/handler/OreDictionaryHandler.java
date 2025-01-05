@@ -58,9 +58,9 @@ public class OreDictionaryHandler {
 				OreDictionary.registerOre("gemGoldenJade", RegistrationHandler.golden_jade);
 				OreDictionary.registerOre("blockGoldenJade", RegistrationHandler.golden_jade_block);
 			}
-			if(JadeSettings.settings.rainbowJadeEnabled) {
-				OreDictionary.registerOre("gemRainbowJade", RegistrationHandler.rainbow_jade);
-				OreDictionary.registerOre("blockRainbowJade", RegistrationHandler.rainbow_jade_block);
+			if(JadeSettings.settings.prismaticJadeEnabled) {
+				OreDictionary.registerOre("gemPrismaticJade", RegistrationHandler.prismatic_jade);
+				OreDictionary.registerOre("blockPrismaticJade", RegistrationHandler.prismatic_jade_block);
 			}
 		}
 		

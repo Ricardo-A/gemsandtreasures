@@ -1,6 +1,6 @@
 package com.github.detoner.gemsandtreasures.addon.jei;
 
-/*import mezz.jei.api.IGuiHelper;
+import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IDrawable;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
@@ -75,4 +75,4 @@ public class FallingAnvilCategory implements IRecipeCategory<FallingAnvilRecipeW
         //recipeLayout.getItemStacks().set(2, ingredients.getOutputs(ItemStack.class).get(0));
 	}
 
-}*/
+}

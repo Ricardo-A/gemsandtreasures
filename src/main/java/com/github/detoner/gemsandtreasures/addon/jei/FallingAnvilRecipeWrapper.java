@@ -1,6 +1,6 @@
 package com.github.detoner.gemsandtreasures.addon.jei;
 
-/*import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 import mezz.jei.api.ingredients.IIngredients;
@@ -34,4 +34,3 @@ public class FallingAnvilRecipeWrapper implements IRecipeWrapper{
 	}
 
 }
-*/

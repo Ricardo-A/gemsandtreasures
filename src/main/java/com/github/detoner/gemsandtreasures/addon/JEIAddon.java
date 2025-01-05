@@ -1,6 +1,6 @@
 package com.github.detoner.gemsandtreasures.addon;
 
-/*import mezz.jei.api.IGuiHelper;
+import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.IModRegistry;
 import mezz.jei.api.JEIPlugin;
@@ -34,4 +34,4 @@ public class JEIAddon implements IModPlugin {
 			registry.addRecipeCategories(new FallingAnvilCategory(guiHelper));
 		}
 	}
-}*/
+}
