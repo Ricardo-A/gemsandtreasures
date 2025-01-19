@@ -42,8 +42,9 @@ repositories {
 dependencies {
 	minecraft "net.minecraftforge:forge:1.12.2-14.23.5.2860"
 	implementation "team.chisel:Chisel:MC1.12.2-1.0.2.45"
-    //runtimeOnly "team.chisel.ctm:CTM:MC1.12.2-1.0.2.31"
     implementation "curse.maven:jei-238222:4538010"
+    
+    runtimeOnly "team.chisel.ctm:CTM:MC1.12.2-1.0.2.31"
 }
 
 minecraft {

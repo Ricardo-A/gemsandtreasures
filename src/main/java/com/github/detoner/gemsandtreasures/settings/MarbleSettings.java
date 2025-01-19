@@ -16,7 +16,7 @@ public class MarbleSettings {
 		@Comment("True if white marble stuff should be available in the game.")
 		public boolean whiteMarbleEnabled = true;
 		
-		@Name("Enable White Marble")
+		@Name("Enable Black Marble")
 		@Comment("True if black marble stuff should be available in the game.")
 		public boolean blackMarbleEnabled = true;
 	}

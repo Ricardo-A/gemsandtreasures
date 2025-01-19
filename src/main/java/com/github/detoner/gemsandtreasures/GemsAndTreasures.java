@@ -3,6 +3,7 @@ package com.github.detoner.gemsandtreasures;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.github.detoner.gemsandtreasures.addon.ChiselAddon;
 import com.github.detoner.gemsandtreasures.fallinganvil.FallingAnvilRecipeRegistration;
 import com.github.detoner.gemsandtreasures.handler.EntityHandler;
 import com.github.detoner.gemsandtreasures.handler.LootHandler;
@@ -41,7 +42,7 @@ public class GemsAndTreasures
     	RegistrationHandler.initItems();
     	RegistrationHandler.initBlocks();
     	if(AddonsSettings.settings.chiselAddonEnabled) {
-    		//ChiselAddon.preInit();
+    		ChiselAddon.preInit();
     	}
     	FallingAnvilRecipeRegistration.register();
     	EntityHandler.initEntities();
@@ -59,7 +60,7 @@ public class GemsAndTreasures
     @EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
     	if(AddonsSettings.settings.chiselAddonEnabled) {
-    		//ChiselAddon.postInit();
+    		ChiselAddon.postInit();
     	}
     	LootHandler.loadJadeLoot();
 	}
