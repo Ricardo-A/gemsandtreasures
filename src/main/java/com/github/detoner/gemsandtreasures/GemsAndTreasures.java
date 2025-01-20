@@ -27,7 +27,7 @@ public class GemsAndTreasures
 {
     public static final String MODID = "gemsandtreasures";
     public static final String NAME = "Gems and Treasures";
-    public static final String VERSION = "0.0.8";
+    public static final String VERSION = "0.1.0";
     public static final String MINECRAFT_VERSIONS = "[1.12.2]";
     public static final String RESOURCE_PREFIX = MODID.toLowerCase() + ":";
 

@@ -8,15 +8,15 @@ import net.minecraftforge.common.config.Config.Name;
 @Config(modid = GemsAndTreasures.MODID, category = "", name = "GemsAndTreasures/WorldGen")
 public class WorldGenSettings {
 	
-	@Name("WorldGen")
+	@Name("worldGen")
 	public static SettingsClass settings = new SettingsClass();
 	
 	public static class SettingsClass {
-		@Name("Carbonado Weight (Overworld)")
+		@Name("carbonadoGenOverworld")
 		@Comment("How many carbonado ores spawn in a overworld chunk")
 		public int carbonadoGenOverworld = 5;
 		
-		@Name("Carbonado Weight (Nether)")
+		@Name("carbonadoGenNether")
 		@Comment("How many carbonado ores spawn in a nether chunk. This includes both top and bottom of the nether")
 		public int carbonadoGenNether = 5;
 	}

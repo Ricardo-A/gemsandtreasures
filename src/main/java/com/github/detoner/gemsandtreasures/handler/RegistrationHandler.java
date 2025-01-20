@@ -44,6 +44,7 @@ import com.github.detoner.gemsandtreasures.settings.JadeSettings;
 import com.github.detoner.gemsandtreasures.settings.MarbleSettings;
 import com.github.detoner.gemsandtreasures.settings.TigersEyeSettings;
 import com.github.detoner.gemsandtreasures.settings.TreasuresSettings;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -632,10 +633,10 @@ public class RegistrationHandler {
 			blocks.add(topaz_block);
 			topaz_ore = new TopazOre(Material.ROCK, "topaz_ore");
 			blocks.add(topaz_ore);
-			topaz_ore = new TopazDirtOre(Material.CLAY, "topaz_dirt_ore");
-			blocks.add(topaz_ore);
-			topaz_ore = new TopazSoulSandOre(Material.SAND, "topaz_soul_sand_ore");
-			blocks.add(topaz_ore);
+			topaz_dirt_ore = new TopazDirtOre(Material.ROCK, "topaz_dirt_ore");
+			blocks.add(topaz_dirt_ore);
+			topaz_soul_sand_ore = new TopazSoulSandOre(Material.SAND, "topaz_soul_sand_ore");
+			blocks.add(topaz_soul_sand_ore);
 		}
 		//end topaz
 		

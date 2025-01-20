@@ -8,15 +8,15 @@ import net.minecraftforge.common.config.Config.Name;
 @Config(modid = GemsAndTreasures.MODID, category = "", name = "GemsAndTreasures/Gems/Marble")
 public class MarbleSettings {
 	
-	@Name("Marble")
+	@Name("marble")
 	public static BasicSettingsClass settings = new BasicSettingsClass();
 	
 	public static class BasicSettingsClass {
-		@Name("Enable White Marble")
+		@Name("whiteMarbleEnabled")
 		@Comment("True if white marble stuff should be available in the game.")
 		public boolean whiteMarbleEnabled = true;
 		
-		@Name("Enable Black Marble")
+		@Name("blackMarbleEnabled")
 		@Comment("True if black marble stuff should be available in the game.")
 		public boolean blackMarbleEnabled = true;
 	}

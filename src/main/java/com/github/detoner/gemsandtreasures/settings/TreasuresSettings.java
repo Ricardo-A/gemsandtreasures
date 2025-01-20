@@ -8,11 +8,11 @@ import net.minecraftforge.common.config.Config.Name;
 @Config(modid = GemsAndTreasures.MODID, category = "", name = "GemsAndTreasures/Treasures")
 public class TreasuresSettings {
 	
-	@Name("Treasures")
+	@Name("treasures")
 	public static SettingsClass settings = new SettingsClass();
 	
 	public static class SettingsClass {
-		@Name("Enable Scroll of Return")
+		@Name("scrollOfReturnEnabled")
 		@Comment("True if the scroll of return should be available in the game.")
 		public boolean scrollOfReturnEnabled = true;
 	}

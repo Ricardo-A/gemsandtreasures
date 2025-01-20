@@ -12,11 +12,11 @@ public class AddonsSettings {
 	public static BasicSettingsClass settings = new BasicSettingsClass();
 	
 	public static class BasicSettingsClass {
-		@Name("Enable Chisel Addon")
+		@Name("chiselAddonEnabled")
 		@Comment("True if alternative versions of the mod blocks should be available in the game.")
 		public boolean chiselAddonEnabled = true;
 		
-		@Name("Enable JEI")
+		@Name("jeiAddonEnabled")
 		@Comment("True if falling anvil crafting recipes should be shown in JEI (Just Enough Items).")
 		public boolean jeiAddonEnabled = true;
 	}

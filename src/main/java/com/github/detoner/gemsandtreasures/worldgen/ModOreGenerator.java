@@ -1,5 +1,7 @@
 package com.github.detoner.gemsandtreasures.worldgen;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import com.github.detoner.gemsandtreasures.handler.RegistrationHandler;
@@ -7,7 +9,7 @@ import com.github.detoner.gemsandtreasures.settings.GemsSettings;
 import com.github.detoner.gemsandtreasures.settings.JadeSettings;
 import com.github.detoner.gemsandtreasures.settings.MarbleSettings;
 import com.github.detoner.gemsandtreasures.settings.TigersEyeSettings;
-import net.minecraft.block.state.pattern.BlockMatcher;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -16,97 +18,82 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class ModOreGenerator implements IWorldGenerator {
 
-	private WorldGenCarbonado worldGenCarbonado;
-	private WorldGenMarble worldGenMarble;
-	private WorldGenMarble worldGenBlackMarble;
-	private WorldGenTigersEye worldGenTigersEye;
-	private WorldGenTigersEye worldGenTigersEyeSand;
-	private WorldGenJade worldGenJade;
-	private WorldGenJade worldGenFireJade;
-	private WorldGenJade worldGenVoidJade;
-	private WorldGenRuby worldGenRuby;
-	private WorldGenAmethyst worldGenAmethyst;
-	private WorldGenGeneric worldGenGeneric = new WorldGenGeneric();
+	private List<WorldGen> worldGenList = new ArrayList<WorldGen>();
 	
 	public ModOreGenerator() {
 		if(GemsSettings.settings.carbonadoEnabled) {
-			worldGenCarbonado = new WorldGenCarbonado(RegistrationHandler.carbonado_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.BEDROCK));
+			worldGenList.add(new WorldGen(RegistrationHandler.carbonado_ore, Blocks.BEDROCK, 5, 1, 0, 10));
 		}
 		if(GemsSettings.settings.marbleEnabled) {
 			if(MarbleSettings.settings.whiteMarbleEnabled) {
-				worldGenMarble = new WorldGenMarble(RegistrationHandler.marble_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.STONE));
+				worldGenList.add(new WorldGen(RegistrationHandler.marble_ore, Blocks.STONE, 15, 5, 0, 200));
 			}
 			if(MarbleSettings.settings.blackMarbleEnabled) {
-				worldGenBlackMarble = new WorldGenMarble(RegistrationHandler.black_marble_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.STONE));
+				worldGenList.add(new WorldGen(RegistrationHandler.black_marble_ore, Blocks.STONE, 15, 5, 0, 200));
 			}
 		}
 		if(GemsSettings.settings.tigersEyeEnabled) {
 			if(TigersEyeSettings.settings.stoneTigersEyeEnabled) {
-				worldGenTigersEye = new WorldGenTigersEye(RegistrationHandler.tigers_eye_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.STONE));
+				worldGenList.add(new WorldGen(RegistrationHandler.tigers_eye_ore, Blocks.STONE, 20, 2, 0, 150));
 			}
 			if(TigersEyeSettings.settings.sandTigersEyeEnabled) {
-				worldGenTigersEyeSand = new WorldGenTigersEye(RegistrationHandler.tigers_eye_sand_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.SAND));
+				worldGenList.add(new WorldGen(RegistrationHandler.tigers_eye_sand_ore, Blocks.SAND, 30, 3, 0, 150));
 			}
 		}
 		if(GemsSettings.settings.jadeEnabled) {
 			if(JadeSettings.settings.greenJadeEnabled) {
-				worldGenJade = new WorldGenJade(RegistrationHandler.jade_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.STONE));
+				worldGenList.add(new WorldGen(RegistrationHandler.jade_ore, Blocks.STONE, 15, 4, 0, 100));
 			}
 			if(JadeSettings.settings.fireJadeEnabled) {
-				worldGenFireJade = new WorldGenJade(RegistrationHandler.fire_jade_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.NETHERRACK));
+				worldGenList.add(new WorldGen(RegistrationHandler.fire_jade_ore, Blocks.NETHERRACK, 15, 4, 0, 255));
 			}
 			if(JadeSettings.settings.voidJadeEnabled) {
-				worldGenVoidJade = new WorldGenJade(RegistrationHandler.void_jade_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.END_STONE));
+				worldGenList.add(new WorldGen(RegistrationHandler.void_jade_ore, Blocks.END_STONE, 15, 4, 5, 200));
 			}
 		}
 		if(GemsSettings.settings.rubyEnabled) {
-			worldGenRuby = new WorldGenRuby(RegistrationHandler.ruby_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.STONE));
+			worldGenList.add(new WorldGen(RegistrationHandler.ruby_ore, Blocks.STONE, 10, 3, 0, 30));
 		}
 		if(GemsSettings.settings.amethystEnabled) {
-			worldGenAmethyst = new WorldGenAmethyst(RegistrationHandler.amethyst_ore.getDefaultState(), BlockMatcher.forBlock(Blocks.STONE));
+			worldGenList.add(new WorldGen(RegistrationHandler.amethyst_ore, Blocks.STONE, 5, 3, 0, 25));
 		}
-		WorldGenGeneric.registerOreForGen(-1, RegistrationHandler.glowing_gem_ore, Blocks.GLOWSTONE, 350, 15, 1, 127);
+		if(GemsSettings.settings.glowingGemEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.glowing_gem_ore, Blocks.GLOWSTONE, 20, 5, 0, 250));
+		}
+		if(GemsSettings.settings.coalStoneEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.coal_stone_ore, Blocks.COAL_ORE, 20, 1, 0, 90));
+		}
+		if(GemsSettings.settings.crystalEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.crystal_ore, Blocks.STONE, 25, 5, 0, 90));
+		}
+		if(GemsSettings.settings.moonCrystalEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.moon_crystal_ore, Blocks.STONE, 25, 5, 0, 90));
+		}
+		if(GemsSettings.settings.roseQuartzEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.rose_quartz_ore, Blocks.STONE, 25, 5, 0, 90));
+		}
+		if(GemsSettings.settings.aquamarineEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.aquamarine_ore, Blocks.STONE, 25, 5, 0, 90));
+			worldGenList.add(new WorldGen(RegistrationHandler.aquamarine_clay_ore, Blocks.CLAY, 25, 3, 0, 90));
+		}
+		if(GemsSettings.settings.sapphireEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.sapphire_ore, Blocks.STONE, 25, 4, 0, 90));
+		}
+		if(GemsSettings.settings.topazEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.topaz_ore, Blocks.STONE, 25, 4, 0, 90));
+			worldGenList.add(new WorldGen(RegistrationHandler.topaz_dirt_ore, Blocks.DIRT, 25, 4, 1, 190));
+			worldGenList.add(new WorldGen(RegistrationHandler.topaz_soul_sand_ore, Blocks.SOUL_SAND, 25, 4, 0, 120));
+		}
+		if(GemsSettings.settings.pinkDiamondEnabled) {
+			worldGenList.add(new WorldGen(RegistrationHandler.pink_diamond_ore, Blocks.STONE, 10, 4, 0, 40));
+		}
 	}
 	
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator,
 			IChunkProvider chunkProvider) {
-		if(GemsSettings.settings.carbonadoEnabled) {
-			worldGenCarbonado.generate(random, chunkX, chunkZ, world);
+		for(WorldGen element : worldGenList) {
+			element.generate(world, random, chunkX, chunkZ);
 		}
-		if(GemsSettings.settings.marbleEnabled) {
-			if(MarbleSettings.settings.whiteMarbleEnabled) {
-				worldGenMarble.generate(world, random, chunkX, chunkZ);
-			}
-			if(MarbleSettings.settings.blackMarbleEnabled) {
-				worldGenBlackMarble.generate(world, random, chunkX, chunkZ);
-			}
-		}
-		if(GemsSettings.settings.tigersEyeEnabled) {
-			if(TigersEyeSettings.settings.stoneTigersEyeEnabled) {
-				worldGenTigersEye.generate(world, random, chunkX, chunkZ);
-			}
-			if(TigersEyeSettings.settings.sandTigersEyeEnabled) {
-				worldGenTigersEyeSand.generate(world, random, chunkX, chunkZ);
-			}
-		}
-		if(GemsSettings.settings.jadeEnabled) {
-			if(JadeSettings.settings.greenJadeEnabled) {
-				worldGenJade.generate(world, random, chunkX, chunkZ);
-			}
-			if(JadeSettings.settings.fireJadeEnabled) {
-				worldGenFireJade.generate(world, random, chunkX, chunkZ);
-			}
-			if(JadeSettings.settings.voidJadeEnabled) {
-				worldGenVoidJade.generate(world, random, chunkX, chunkZ);
-			}
-		}
-		if(GemsSettings.settings.rubyEnabled) {
-			worldGenRuby.generate(world, random, chunkX, chunkZ);
-		}
-		if(GemsSettings.settings.amethystEnabled) {
-			worldGenAmethyst.generate(world, random, chunkX, chunkZ);
-		}
-		worldGenGeneric.generate(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
 	}
 }

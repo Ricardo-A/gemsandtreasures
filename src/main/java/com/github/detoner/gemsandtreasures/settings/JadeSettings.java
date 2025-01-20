@@ -8,40 +8,40 @@ import net.minecraftforge.common.config.Config.Name;
 @Config(modid = GemsAndTreasures.MODID, category = "", name = "GemsAndTreasures/Gems/Jade")
 public class JadeSettings {
 	
-	@Name("Jade")
+	@Name("jade")
 	public static BasicSettingsClass settings = new BasicSettingsClass();
 	
-	@Name("Jade Exchange")
+	@Name("exchangeSettings")
 	public static JadeLootSettingsClass exchangeSettings = new JadeLootSettingsClass();
 	
 	public static class BasicSettingsClass {
-		@Name("Enable Green Jade")
+		@Name("greenJadeEnabled")
 		@Comment("True if green (the commom one) jade should be available in the game.")
 		public boolean greenJadeEnabled = true;
 		
-		@Name("Enable Fire Jade")
+		@Name("fireJadeEnabled")
 		@Comment("True if fire (nether) jade should be available in the game.")
 		public boolean fireJadeEnabled = true;
 		
-		@Name("Enable Void Jade")
+		@Name("voidJadeEnabled")
 		@Comment("True if void (end) jade should be available in the game.")
 		public boolean voidJadeEnabled = true;
 		
-		@Name("Enable White Jade")
+		@Name("whiteJadeEnabled")
 		@Comment("True if white (rare) jade should be available in the game.")
 		public boolean whiteJadeEnabled = true;
 		
-		@Name("Enable Golden Jade")
+		@Name("goldenJadeEnabled")
 		@Comment("True if golden (epic) jade should be available in the game.")
 		public boolean goldenJadeEnabled = true;
 		
-		@Name("Enable Prismatic Jade")
+		@Name("prismaticJadeEnabled")
 		@Comment("True if prismatic (legendary) jade should be available in the game.")
 		public boolean prismaticJadeEnabled = true;
 	}
 	
 	public static class JadeLootSettingsClass {
-		@Name("Jade Loot")
+		@Name("jadeLoot")
 		@Comment("These items can be exchanged for the jade upon right click.\n weight modid:item:metadata amount")
 		public String[] jadeLoot = {
 				"1 minecraft:emerald 1",
@@ -66,7 +66,7 @@ public class JadeSettings {
 				"1 gemsandtreasures:white_jade 1"
 		};
 		
-		@Name("Fire Jade Loot")
+		@Name("fireJadeLoot")
 		@Comment("These items can be exchanged for the fire jade upon right click.\n weight modid:item:metadata amount")
 		public String[] fireJadeLoot = {
 				"1 minecraft:blaze_rod 1",
@@ -89,7 +89,7 @@ public class JadeSettings {
 				"1 minecraft:cauldron 1",
 		};
 		
-		@Name("Void Jade Loot")
+		@Name("voidJadeLoot")
 		@Comment("These items can be exchanged for the void jade upon right click.\n weight modid:item:metadata amount")
 		public String[] voidJadeLoot = {
 				"1 minecraft:ender_pearl 2",
@@ -107,7 +107,7 @@ public class JadeSettings {
 				"1 minecraft:shulker_shell 2"
 		};
 		
-		@Name("White Jade Loot")
+		@Name("whiteJadeLoot")
 		@Comment("These items can be exchanged for the white jade upon right click.\n weight modid:item:metadata amount")
 		public String[] whiteJadeLoot = {
 				"3 minecraft:emerald 2",
@@ -137,7 +137,7 @@ public class JadeSettings {
 				"2 minecraft:rabbit_foot 1"
 		};
 		
-		@Name("Golden Jade Loot")
+		@Name("goldenJadeLoot")
 		@Comment("These items can be exchanged for the golden jade upon right click.\n weight modid:item:metadata amount")
 		public String[] goldenJadeLoot = {
 				"5 minecraft:emerald 3",
@@ -165,7 +165,7 @@ public class JadeSettings {
 				"2 minecraft:sea_lantern 1"
 		};
 		
-		@Name("Prismatic Jade Loot")
+		@Name("prismaticJadeLoot")
 		@Comment("These items can be exchanged for the prismatic jade upon right click.\n weight modid:item:metadata amount")
 		public String[] prismaticJadeLoot = {
 				"5 minecraft:gold_block 2",
