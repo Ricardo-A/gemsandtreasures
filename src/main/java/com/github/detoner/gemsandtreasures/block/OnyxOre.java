@@ -13,7 +13,7 @@ public class OnyxOre extends BlockBase{
 	
 	public OnyxOre(Material material, String name) {
 		super(material, name);
-		setHardness(5.0f);
+		setHardness(15.0f);
 		setResistance(8.0f);
 		setHarvestLevel("pickaxe", 4);
 	}

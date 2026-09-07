@@ -4,30 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.github.detoner.gemsandtreasures.GemsAndTreasures;
-import com.github.detoner.gemsandtreasures.block.AmethystOre;
-import com.github.detoner.gemsandtreasures.block.AquamarineClayOre;
-import com.github.detoner.gemsandtreasures.block.AquamarineOre;
-import com.github.detoner.gemsandtreasures.block.BlockBase;
-import com.github.detoner.gemsandtreasures.block.BlockBaseGlass;
-import com.github.detoner.gemsandtreasures.block.CarbonadoOre;
-import com.github.detoner.gemsandtreasures.block.CoalStoneOre;
-import com.github.detoner.gemsandtreasures.block.CrystalOre;
-import com.github.detoner.gemsandtreasures.block.FireJadeOre;
-import com.github.detoner.gemsandtreasures.block.GlowingGemOre;
-import com.github.detoner.gemsandtreasures.block.ItemBlockBase;
-import com.github.detoner.gemsandtreasures.block.JadeOre;
-import com.github.detoner.gemsandtreasures.block.MoonCrystalOre;
-import com.github.detoner.gemsandtreasures.block.OnyxOre;
-import com.github.detoner.gemsandtreasures.block.OnyxSoulSandOre;
-import com.github.detoner.gemsandtreasures.block.RoseQuartzOre;
-import com.github.detoner.gemsandtreasures.block.RubyOre;
-import com.github.detoner.gemsandtreasures.block.SapphireOre;
-import com.github.detoner.gemsandtreasures.block.TigersEyeOre;
-import com.github.detoner.gemsandtreasures.block.TigersEyeSandOre;
-import com.github.detoner.gemsandtreasures.block.TopazDirtOre;
-import com.github.detoner.gemsandtreasures.block.TopazOre;
-import com.github.detoner.gemsandtreasures.block.TopazSoulSandOre;
-import com.github.detoner.gemsandtreasures.block.VoidJadeOre;
+import com.github.detoner.gemsandtreasures.block.*;
 import com.github.detoner.gemsandtreasures.item.ItemBase;
 import com.github.detoner.gemsandtreasures.item.ItemBaseArmor;
 import com.github.detoner.gemsandtreasures.item.ItemBaseAxe;
@@ -493,13 +470,13 @@ public class RegistrationHandler {
 			if(MarbleSettings.settings.whiteMarbleEnabled) {
 				marble_block = new BlockBase(Material.ROCK, "marble_block").setHardness(2.0f).setResistance(6.0f);
 				blocks.add(marble_block);
-				marble_ore = new BlockBase(Material.ROCK, "marble_ore").setHardness(3.0f).setResistance(5.0f);
+				marble_ore = new MarbleOre(Material.ROCK, "marble_ore").setHardness(3.0f).setResistance(5.0f);
 				blocks.add(marble_ore);
 			}
 			if(MarbleSettings.settings.blackMarbleEnabled) {
 				black_marble_block = new BlockBase(Material.ROCK, "black_marble_block").setHardness(2.0f).setResistance(6.0f);
 				blocks.add(black_marble_block);
-				black_marble_ore = new BlockBase(Material.ROCK, "black_marble_ore").setHardness(3.0f).setResistance(5.0f);
+				black_marble_ore = new BlackMarbleOre(Material.ROCK, "black_marble_ore").setHardness(3.0f).setResistance(5.0f);
 				blocks.add(black_marble_ore);
 			}
 		}
@@ -662,7 +639,7 @@ public class RegistrationHandler {
 		if(GemsSettings.settings.pinkDiamondEnabled) {
 			pink_diamond_block = new BlockBase(Material.ROCK, "pink_diamond_block").setHardness(6.0f).setResistance(8.0f);
 			blocks.add(pink_diamond_block);
-			pink_diamond_ore = new AquamarineOre(Material.ROCK, "pink_diamond_ore");
+			pink_diamond_ore = new PinkDiamondOre(Material.ROCK, "pink_diamond_ore");
 			blocks.add(pink_diamond_ore);
 		}
 		//end pink diamond
