@@ -3,7 +3,7 @@ buildscript {
 		mavenCentral()
 		maven { url = "https://maven.minecraftforge.net/" }
 	}
-	
+
 	dependencies {
 		classpath group: "net.minecraftforge.gradle", name: "ForgeGradle", version: "5.1.+"
 	}
@@ -13,6 +13,7 @@ apply plugin: "java"
 apply plugin: "net.minecraftforge.gradle"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
 compileJava {
 	sourceCompatibility = "8"
 	targetCompatibility = "8"
@@ -22,55 +23,83 @@ repositories {
 	maven {
 		url = "https://maven.minecraftforge.net/"
 	}
+
 	maven { // CTM
-            url "http://maven.tterrag.com/"
-            allowInsecureProtocol = true
-    }
-    maven { // JEI
-        url "http://dvs1.progwml6.com/files/maven"
-        allowInsecureProtocol = true
-    }
-    maven {
-        name 'CurseMaven'
-        url 'https://cursemaven.com'
-        content {
-            includeGroup 'curse.maven'
-        }
-    }
+		url = "http://maven.tterrag.com/"
+		allowInsecureProtocol = true
+	}
+
+	maven { // JEI
+		url = "http://dvs1.progwml6.com/files/maven"
+		allowInsecureProtocol = true
+	}
+
+	maven {
+		name = "CurseMaven"
+		url = "https://cursemaven.com"
+
+		content {
+			includeGroup "curse.maven"
+		}
+	}
+
+	maven {
+		url = "https://jitpack.io"
+		content {
+			includeGroup "com.github"
+		}
+	}
 }
 
 dependencies {
 	minecraft "net.minecraftforge:forge:1.12.2-14.23.5.2860"
-	implementation "team.chisel:Chisel:MC1.12.2-1.0.2.45"
-    implementation "curse.maven:jei-238222:4538010"
-    
-    runtimeOnly "team.chisel.ctm:CTM:MC1.12.2-1.0.2.31"
+
+	implementation("net.minecraftforge:mergetool:0.2.3.3") {
+		force = true
+	}
+
+	implementation fg.deobf("curse.maven:chisel-235279:2915375")
+	implementation fg.deobf("curse.maven:jei-238222:4538010")
+
+	runtimeOnly fg.deobf("team.chisel.ctm:CTM:MC1.12.2-1.0.2.31")
 }
 
 minecraft {
 	mappings channel: "stable", version: "39-1.12"
-	
+
+	accessTransformer = file("src/main/resources/META-INF/accesstransformer.cfg")
+
 	runs {
-		"client" {
+		client {
 			workingDirectory file("./run")
-			mods { "${project.name}" { source sourceSets.main } }
+
+			mods {
+				"${project.name}" {
+					source sourceSets.main
+				}
+			}
 		}
-		
-		"server" {
+
+		server {
 			workingDirectory file("./run/server")
-			mods { "${project.name}" { source sourceSets.main } }
+
+			mods {
+				"${project.name}" {
+					source sourceSets.main
+				}
+			}
 		}
 	}
 }
 
 processResources {
 	inputs.property "version", project.version
-	
+
 	filesMatching("mcmod.info") {
 		expand "version": project.version
 	}
 }
 
-//When Forge 1.12 loads mods from a directory that's been put on the classpath, it expects to find resources in the same directory.
-//Default Gradle behavior puts resources in ./build/resources/main instead of ./build/classes/main/java. Let's change that.
-sourceSets.all { it.output.resourcesDir = it.output.classesDirs.getFiles().iterator().next() }
+sourceSets.all {
+	it.output.resourcesDir = it.output.classesDirs.getFiles().iterator().next()
+}
