@@ -1,6 +1,7 @@
 package com.github.detoner.gemsandtreasures;
 
 import com.github.detoner.gemsandtreasures.handler.RegistrationHandler;
+import com.github.detoner.gemsandtreasures.handler.registration.JadeRegistration;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,6 @@ public class ModTab extends CreativeTabs {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public ItemStack createIcon() {
-		return new ItemStack(Item.getItemFromBlock(RegistrationHandler.golden_jade_block));
+		return new ItemStack(JadeRegistration.prismatic_jade);
 	}
 }

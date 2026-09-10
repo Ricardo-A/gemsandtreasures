@@ -2,6 +2,7 @@ package com.github.detoner.gemsandtreasures.item;
 
 import com.github.detoner.gemsandtreasures.GemsAndTreasures;
 import com.github.detoner.gemsandtreasures.handler.RegistrationHandler;
+import com.github.detoner.gemsandtreasures.handler.registration.CarbonadoRegistration;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
@@ -24,6 +25,6 @@ public class ItemBaseArmor extends ItemArmor{
 	
 	@Override
 	public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
-		return ItemStack.areItemsEqualIgnoreDurability(repair, new ItemStack(RegistrationHandler.carbonado)) ? true : super.getIsRepairable(toRepair, repair);
+		return ItemStack.areItemsEqualIgnoreDurability(repair, new ItemStack(CarbonadoRegistration.carbonado)) ? true : super.getIsRepairable(toRepair, repair);
   	}
 }

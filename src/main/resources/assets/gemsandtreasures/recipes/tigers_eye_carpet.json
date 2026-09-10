@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "WTW",
+    "TGT"
+  ],
+  "key": {
+     "T": {
+      "type": "forge:ore_dict",
+      "ore": "gemTigersEye"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "blockWool"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "bottleGlass"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:gem_carpet:1"
+  }
+}

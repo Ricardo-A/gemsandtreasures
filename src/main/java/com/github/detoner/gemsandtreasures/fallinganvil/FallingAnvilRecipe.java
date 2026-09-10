@@ -24,16 +24,26 @@ public class FallingAnvilRecipe{
 		this.maximumHeight = 1;
 		this.results = results;
 	}
+
+	public FallingAnvilRecipe(ItemStack ingredient, List<FallingAnvilRecipeResult> results) {
+		this.ingredients = new ArrayList<>();
+		if(ingredient.getCount() <= 0) {
+			ingredient.setCount(1);
+		}
+		this.minimumHeight = 1;
+		this.maximumHeight = 1;
+		this.results = results;
+	}
 	
 	public FallingAnvilRecipe(ItemStack ingredient, FallingAnvilRecipeResult result) {
-		this.ingredients = new ArrayList<ItemStack>();
+		this.ingredients = new ArrayList<>();
 		if(ingredient.getCount() <= 0) {
 			ingredient.setCount(1);
 		}
 		this.ingredients.add(ingredient);
 		this.minimumHeight = 1;
 		this.maximumHeight = 1;
-		this.results = new ArrayList<FallingAnvilRecipeResult>();
+		this.results = new ArrayList<>();
 		this.results.add(result);
 	}
 	

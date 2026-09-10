@@ -1,11 +1,16 @@
 itemGroup.gemsandtreasures=Gems and Treasures
 
 item.gemsandtreasures:carbonado.name=Carbonado
+item.gemsandtreasures:carbonado.tooltip=The black diamond.
 item.gemsandtreasures:carbonado_raw.name=Raw Carbonado
+item.gemsandtreasures:carbonado_raw.tooltip=Need heat.
 item.gemsandtreasures:carbonado_cluster.name=Carbonado Cluster
+item.gemsandtreasures:carbonado_cluster.tooltip=Break it with an anvil.
 item.gemsandtreasures:carbonado_shard.name=Carbonado Shard
+item.gemsandtreasures:carbonado_shard.tooltip=Fragments of carbonado.
 
 item.gemsandtreasures:carbonado_pickaxe.name=Carbonado Pickaxe
+item.gemsandtreasures:carbonado_pickaxe.tooltip=Carbonado Pickaxe
 item.gemsandtreasures:carbonado_axe.name=Carbonado Axe
 item.gemsandtreasures:carbonado_shovel.name=Carbonado Shovel
 item.gemsandtreasures:carbonado_hoe.name=Carbonado Hoe
@@ -37,7 +42,9 @@ tile.gemsandtreasures:marble_ore.name=Marble Ore
 tile.gemsandtreasures:black_marble_ore.name=Black Marble Ore
 
 item.gemsandtreasures:tigers_eye.name=Tiger's Eye
+item.gemsandtreasures:tigers_eye.tooltip=A gem that reminds of an eye.
 item.gemsandtreasures:scroll_of_return.name=Scroll of Return
+item.gemsandtreasures:scroll_of_return.tooltip=Consumable\nTeleports to spawn point.
 
 tile.gemsandtreasures:tigers_eye_block.name=Tiger's Eye Block
 tile.gemsandtreasures:tigers_eye_glass.name=Tiger's Eye Glass
@@ -146,5 +153,12 @@ item.gemsandtreasures:blood_diamond.name=Blood Diamond
 item.gemsandtreasures:perfect_diamond.name=Perfect Diamond
 item.gemsandtreasures:royal_diamond.name=Royal Diamond
 item.gemsandtreasures:golden_diamond.name=Golden Diamond
+
+tile.gemsandtreasures:crystal_carpet.name=Crystal Carpet
+tile.gemsandtreasures:crystal_carpet.tooltip=Emits light.
+tile.gemsandtreasures:tigers_eye_carpet.name=Tiger's Eye Carpet
+tile.gemsandtreasures:tigers_eye_carpet.tooltip=Blinds those who walk on it.
+tile.gemsandtreasures:ruby_carpet.name=Ruby Carpet
+tile.gemsandtreasures:ruby_carpet.tooltip=Sets hostiles on fire.
 
 entity.gemsandtreasures:dark_ghast.name=Dark Ghast

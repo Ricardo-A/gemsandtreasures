@@ -1,13 +1,17 @@
 itemGroup.gemsandtreasures=Gems and Treasures
 
 item.gemsandtreasures:carbonado.name=Carbonado
+item.gemsandtreasures:carbonado.tooltip=O diamante negro.
 item.gemsandtreasures:carbonado_raw.name=Carbonado Bruto
+item.gemsandtreasures:carbonado_raw.tooltip=Precisa de calor.
 item.gemsandtreasures:carbonado_cluster.name=Aglomerado de Carbonado
+item.gemsandtreasures:carbonado_cluster.tooltip=Quebre-o com uma bigorna.
 item.gemsandtreasures:carbonado_shard.name=Fragmento de Carbonado
+item.gemsandtreasures:carbonado_shard.tooltip=Pedaços de carbonado.
 
 item.gemsandtreasures:carbonado_pickaxe.name=Picareta de Carbonado
 item.gemsandtreasures:carbonado_axe.name=Machado de Carbonado
-item.gemsandtreasures:carbonado_shovel.name=P� de Carbonado
+item.gemsandtreasures:carbonado_shovel.name=Pá de Carbonado
 item.gemsandtreasures:carbonado_hoe.name=Enxada de Carbonado
 item.gemsandtreasures:carbonado_sword.name=Espada de Carbonado
 
@@ -37,7 +41,9 @@ tile.gemsandtreasures:marble_ore.name=Minério de Mármore
 tile.gemsandtreasures:black_marble_ore.name=Minério de Mármore Negro
 
 item.gemsandtreasures:tigers_eye.name=Olho de Tigre
+item.gemsandtreasures:tigers_eye.tooltip=Uma pedra que lembra um olho.
 item.gemsandtreasures:scroll_of_return.name=Pergaminho do Retorno
+item.gemsandtreasures:scroll_of_return.tooltip=Consumível\nTeleporta para o início.
 
 tile.gemsandtreasures:tigers_eye_block.name=Bloco de Olho de Tigre
 tile.gemsandtreasures:tigers_eye_glass.name=Vitral de Olho de Tigre
@@ -146,5 +152,12 @@ item.gemsandtreasures:blood_diamond.name=Diamante Sangrento
 item.gemsandtreasures:perfect_diamond.name=Diamante Perfeito
 item.gemsandtreasures:royal_diamond.name=Diamante Real
 item.gemsandtreasures:golden_diamond.name=Diamante Dourado
+
+tile.gemsandtreasures:crystal_carpet.name=Carpete de Cristal
+tile.gemsandtreasures:crystal_carpet.tooltip=Emite luz.
+tile.gemsandtreasures:tigers_eye_carpet.name=Carpete de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_carpet.tooltip=Deixa cegos aqueles que passam sobre ele.
+tile.gemsandtreasures:ruby_carpet.name=Carpete de Ruby
+tile.gemsandtreasures:ruby_carpet.tooltip=Incendeia criaturas hostis.
 
 entity.gemsandtreasures:dark_ghast.name=Fantasma Obscuro

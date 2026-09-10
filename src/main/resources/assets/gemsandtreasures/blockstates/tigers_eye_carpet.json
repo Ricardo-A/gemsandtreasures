@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "carpet",
+    "textures": {
+      "particle": "gemsandtreasures:blocks/tigers_eye_carpet",
+      "wool": "gemsandtreasures:blocks/tigers_eye_carpet"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "carpet"
+    },
+    "inventory": {
+      "model": "carpet"
+    }
+  }
+}

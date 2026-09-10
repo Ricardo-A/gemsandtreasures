@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "WRW",
+    "RJR"
+  ],
+  "key": {
+    "J": {
+      "type": "forge:ore_dict",
+      "ore": "gemFireJade"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "gemRuby"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "blockWool"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:gem_carpet:14"
+  }
+}

@@ -29,6 +29,16 @@ public class FallingAnvilRecipeResult{
 		this.probability = 0;
 	}
 
+	public FallingAnvilRecipeResult(Item result, int weight) {
+		this.result = result;
+		this.minimumBaseResults = 1;
+		this.maximumBaseResults = 1;
+		this.minimumResultsPerHeight = 0;
+		this.maximumResultsPerHeight = 0;
+		this.weight = weight;
+		this.probability = 0;
+	}
+
 	/**
 	 * @param result - item that you will get after the anvil smash the ingredient
 	 * @param minimumBaseResults - minimum amount of items that can be crafted at minimum height
@@ -116,7 +126,7 @@ public class FallingAnvilRecipeResult{
 	}
 
 	public float getProbabilityFloat() {
-		return probability/100;
+		return probability/100F;
 	}
 
 	/**

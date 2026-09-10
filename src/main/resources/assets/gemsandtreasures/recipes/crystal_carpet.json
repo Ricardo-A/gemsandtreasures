@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "WCW",
+    "CGC"
+  ],
+  "key": {
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "gemGlowingGem"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "gemCrystal"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "blockWool"
+    }
+  },
+  "result": {
+    "item": "gemsandtreasures:gem_carpet:0",
+    "count": 3
+  }
+}

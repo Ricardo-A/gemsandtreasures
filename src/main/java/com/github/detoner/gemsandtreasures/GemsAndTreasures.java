@@ -39,11 +39,7 @@ public class GemsAndTreasures
     public void preInit(FMLPreInitializationEvent event)
     {
     	ModMaterial.initMaterials();
-    	RegistrationHandler.initItems();
-    	RegistrationHandler.initBlocks();
-    	if(AddonsSettings.settings.chiselAddonEnabled) {
-    		ChiselAddon.preInit();
-    	}
+		RegistrationHandler.init();
     	FallingAnvilRecipeRegistration.register();
     	EntityHandler.initEntities();
     }

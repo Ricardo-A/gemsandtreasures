@@ -19,3 +19,5 @@ bin/
 *.DS_Store
 # run configurations
 run/
+/logs/
+/crash-reports/
