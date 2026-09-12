@@ -43,13 +43,30 @@ tile.gemsandtreasures:black_marble_ore.name=Black Marble Ore
 
 item.gemsandtreasures:tigers_eye.name=Tiger's Eye
 item.gemsandtreasures:tigers_eye.tooltip=A gem that reminds of an eye.
+item.gemsandtreasures:tigers_eye_shard.name=Tiger's Eye Shard
+item.gemsandtreasures:tigers_eye_dust.name=Tiger's Eye Dust
 item.gemsandtreasures:scroll_of_return.name=Scroll of Return
 item.gemsandtreasures:scroll_of_return.tooltip=Consumable\nTeleports to spawn point.
+item.gemsandtreasures:book_of_return.name=Book of Return
+item.gemsandtreasures:book_of_return.tooltip=Multiple uses.\nTeleports to spawn point.
+item.gemsandtreasures:nether_escape_scroll.name=Nether Escape Scroll
+item.gemsandtreasures:nether_escape_scroll.tooltip=Consumable\nTeleports to the overworld.
+item.gemsandtreasures:nether_escape_book.name=Nether Escape Book
+item.gemsandtreasures:nether_escape_book.tooltip=Multiple uses.\nTeleports to the overworld.
+item.gemsandtreasures:escape_scroll.name=Escape Scroll
+item.gemsandtreasures:escape_scroll.tooltip=Consumable\nReturns home. Works everywhere.
+item.gemsandtreasures:escape_book.name=Escape Book
+item.gemsandtreasures:escape_book.tooltip=Multiple uses.\nReturns home. Works everywhere.
+item.gemsandtreasures:corrupted_scroll.name=Corrupted Scroll
+item.gemsandtreasures:corrupted_scroll.tooltip=Consumable\nDangerous.
+item.gemsandtreasures:corrupted_book.name=Corrupted Book
+item.gemsandtreasures:corrupted_book.tooltip=Multiple uses.\nDangerous.
 
 tile.gemsandtreasures:tigers_eye_block.name=Tiger's Eye Block
 tile.gemsandtreasures:tigers_eye_glass.name=Tiger's Eye Glass
 tile.gemsandtreasures:tigers_eye_ore.name=Tiger's Eye Ore
 tile.gemsandtreasures:tigers_eye_sand_ore.name=Tiger's Eye Ore
+tile.gemsandtreasures:tigers_eye_shard_ore.name=Tiger's Eye Shard Ore
 
 item.gemsandtreasures:jade.name=Jade
 item.gemsandtreasures:fire_jade.name=Fire Jade

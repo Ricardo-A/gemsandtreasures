@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "gemsandtreasures:corrupted_scroll"
+    },
+    {
+      "item": "gemsandtreasures:corrupted_scroll"
+    },
+    {
+      "item": "gemsandtreasures:corrupted_scroll"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:corrupted_book"
+  }
+}

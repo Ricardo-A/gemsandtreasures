@@ -36,10 +36,40 @@ public class ModOreGenerator implements IWorldGenerator {
 		}
 		if(GemsSettings.settings.tigersEyeEnabled) {
 			if(TigersEyeSettings.settings.stoneTigersEyeEnabled) {
-				worldGenList.add(new WorldGen(TigersEyeRegistration.tigers_eye_ore, Blocks.STONE, 20, 2, 0, 150));
+				worldGenList.add(
+						new WorldGen(
+								TigersEyeRegistration.tigers_eye_ore,
+								Blocks.STONE,
+								TigersEyeSettings.settings.stoneTigersEyeWeight,
+								TigersEyeSettings.settings.stoneTigersEyeVeinSize,
+								TigersEyeSettings.settings.stoneTigersEyeMinHeight,
+								TigersEyeSettings.settings.stoneTigersEyeMaxHeight
+						)
+				);
 			}
 			if(TigersEyeSettings.settings.sandTigersEyeEnabled) {
-				worldGenList.add(new WorldGen(TigersEyeRegistration.tigers_eye_sand_ore, Blocks.SAND, 30, 3, 0, 150));
+				worldGenList.add(
+						new WorldGen(
+								TigersEyeRegistration.tigers_eye_sand_ore,
+								Blocks.SAND,
+								TigersEyeSettings.settings.sandTigersEyeWeight,
+								TigersEyeSettings.settings.sandTigersEyeVeinSize,
+								TigersEyeSettings.settings.sandTigersEyeMinHeight,
+								TigersEyeSettings.settings.sandTigersEyeMaxHeight
+						)
+				);
+			}
+			if(TigersEyeSettings.settings.shardTigersEyeEnabled) {
+				worldGenList.add(
+						new WorldGen(
+								TigersEyeRegistration.tigers_eye_shard_ore,
+								Blocks.SAND,
+								TigersEyeSettings.settings.shardTigersEyeWeight,
+								TigersEyeSettings.settings.shardTigersEyeVeinSize,
+								TigersEyeSettings.settings.shardTigersEyeMinHeight,
+								TigersEyeSettings.settings.shardTigersEyeMaxHeight
+						)
+				);
 			}
 		}
 		if(GemsSettings.settings.jadeEnabled) {

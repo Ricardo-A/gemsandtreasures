@@ -4,6 +4,7 @@ import com.github.detoner.gemsandtreasures.block.base.ItemBlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
@@ -17,6 +18,7 @@ public abstract class BaseRegistration {
 
     protected final List<Item> items = new ArrayList<>();
     protected final List<Block> blocks = new ArrayList<>();
+    protected final List<IRecipe> recipes = new ArrayList<>();
 
     public abstract void init();
 
@@ -33,6 +35,12 @@ public abstract class BaseRegistration {
     public void registerBlocks(RegistryEvent.Register<Block> event) {
         for (Block block : blocks) {
             event.getRegistry().register(block);
+        }
+    }
+
+    public void registerRecipes(RegistryEvent.Register<IRecipe> event) {
+        for (IRecipe recipe : recipes) {
+            event.getRegistry().register(recipe);
         }
     }
 

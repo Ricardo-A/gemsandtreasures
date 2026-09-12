@@ -10,6 +10,7 @@ item.gemsandtreasures:carbonado_shard.name=Fragmento de Carbonado
 item.gemsandtreasures:carbonado_shard.tooltip=Pedaços de carbonado.
 
 item.gemsandtreasures:carbonado_pickaxe.name=Picareta de Carbonado
+item.gemsandtreasures:carbonado_pickaxe.tooltip=Carbonado Pickaxe
 item.gemsandtreasures:carbonado_axe.name=Machado de Carbonado
 item.gemsandtreasures:carbonado_shovel.name=Pá de Carbonado
 item.gemsandtreasures:carbonado_hoe.name=Enxada de Carbonado
@@ -42,13 +43,30 @@ tile.gemsandtreasures:black_marble_ore.name=Minério de Mármore Negro
 
 item.gemsandtreasures:tigers_eye.name=Olho de Tigre
 item.gemsandtreasures:tigers_eye.tooltip=Uma pedra que lembra um olho.
+item.gemsandtreasures:tigers_eye_shard.name=Fragmento de Olho de Tigre
+item.gemsandtreasures:tigers_eye_dust.name=Pó de Olho de Tigre
 item.gemsandtreasures:scroll_of_return.name=Pergaminho do Retorno
 item.gemsandtreasures:scroll_of_return.tooltip=Consumível\nTeleporta para o início.
+item.gemsandtreasures:book_of_return.name=Livro do Retorno
+item.gemsandtreasures:book_of_return.tooltip=Multiplos usos.\nTeleporta para o início.
+item.gemsandtreasures:nether_escape_scroll.name=Pergaminho de Escape do Nether
+item.gemsandtreasures:nether_escape_scroll.tooltip=Consumível\nTeleporta para o overworld.
+item.gemsandtreasures:nether_escape_book.name=Livro de Escape do Nether
+item.gemsandtreasures:nether_escape_book.tooltip=Multiplos usos.\nTeleporta para o overworld.
+item.gemsandtreasures:escape_scroll.name=Pergaminho de Escape
+item.gemsandtreasures:escape_scroll.tooltip=Consumível\nRetorna para casa. Funciona em todo lugar.
+item.gemsandtreasures:escape_book.name=Livro de Escape
+item.gemsandtreasures:escape_book.tooltip=Multiplos usos.\nRetorna para casa. Funciona em todo lugar.
+item.gemsandtreasures:corrupted_scroll.name=Pergaminho Corrompido.
+item.gemsandtreasures:corrupted_scroll.tooltip=Consumível\Perigoso.
+item.gemsandtreasures:corrupted_book.name=Livro Corrompido
+item.gemsandtreasures:corrupted_book.tooltip=Multiplos usos.\Perigoso.
 
 tile.gemsandtreasures:tigers_eye_block.name=Bloco de Olho de Tigre
 tile.gemsandtreasures:tigers_eye_glass.name=Vitral de Olho de Tigre
 tile.gemsandtreasures:tigers_eye_ore.name=Minério de Olho de Tigre
 tile.gemsandtreasures:tigers_eye_sand_ore.name=Minério de Olho de Tigre
+tile.gemsandtreasures:tigers_eye_shard_ore.name=Minério de Fragmento de Olho de Tigre
 
 item.gemsandtreasures:jade.name=Jade
 item.gemsandtreasures:fire_jade.name=Jade de Fogo
@@ -158,6 +176,6 @@ tile.gemsandtreasures:crystal_carpet.tooltip=Emite luz.
 tile.gemsandtreasures:tigers_eye_carpet.name=Carpete de Olho de Tigre
 tile.gemsandtreasures:tigers_eye_carpet.tooltip=Deixa cegos aqueles que passam sobre ele.
 tile.gemsandtreasures:ruby_carpet.name=Carpete de Ruby
-tile.gemsandtreasures:ruby_carpet.tooltip=Incendeia criaturas hostis.
+tile.gemsandtreasures:ruby_carpet.tooltip=Incendeia criaturas hostis
 
-entity.gemsandtreasures:dark_ghast.name=Fantasma Obscuro
+entity.gemsandtreasures:dark_ghast.name=Ghast Negro

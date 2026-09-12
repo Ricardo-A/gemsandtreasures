@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "gemsandtreasures:scroll_of_return"
+    },
+    {
+      "item": "gemsandtreasures:nether_escape_scroll"
+    },
+    {
+      "item": "gemsandtreasures:corrupted_scroll"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:escape_scroll"
+  }
+}

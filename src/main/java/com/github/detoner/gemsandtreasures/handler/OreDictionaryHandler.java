@@ -39,6 +39,8 @@ public class OreDictionaryHandler {
 			OreDictionary.registerOre("gemTigersEye", TigersEyeRegistration.tigers_eye);
 			OreDictionary.registerOre("oreTigersEye", TigersEyeRegistration.tigers_eye_ore);
 			OreDictionary.registerOre("blockTigersEye", TigersEyeRegistration.tigers_eye_block);
+			OreDictionary.registerOre("shardTigersEye", TigersEyeRegistration.tigers_eye_shard);
+			OreDictionary.registerOre("dustTigersEye", TigersEyeRegistration.tigers_eye_dust);
 		}
 		
 		if(GemsSettings.settings.jadeEnabled) {

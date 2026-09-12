@@ -10,10 +10,10 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 
 public class WorldGen extends WorldGenMinable{
 
-	int veinSize = 4;
-	int weight = 20;
-	int minHeight = 0;
-	int maxHeight = 90;
+	int veinSize;
+	int weight;
+	int minHeight;
+	int maxHeight;
 	
     public WorldGen(Block block, Block substitute, int weight, int veinSize, int minHeight, int maxHeight){
     	super(block.getDefaultState(), veinSize, BlockMatcher.forBlock(substitute));

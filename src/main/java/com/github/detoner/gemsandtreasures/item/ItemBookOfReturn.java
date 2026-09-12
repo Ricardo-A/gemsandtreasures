@@ -11,35 +11,45 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
-public class ItemScrollOfReturn extends ItemBase{
+public class ItemBookOfReturn extends ItemBase{
 
-    public ItemScrollOfReturn(CreativeTabs tab) {
-        super("scroll_of_return", tab);
+	public ItemBookOfReturn(CreativeTabs tab) {
+		super("book_of_return", tab);
+        setAttributes();
+	}
+
+	public ItemBookOfReturn() {
+        super("book_of_return");
+        setAttributes();
+	}
+
+    private void setAttributes(){
+        setMaxDamage(TreasuresSettings.settings.bookOfReturnMaxUses);
     }
-
-    public ItemScrollOfReturn() {
-        super("scroll_of_return");
-    }
-
-    @Override
+	
+	@Override
     public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entityPlayer, EnumHand handIn)
     {
-        ItemStack heldItem = entityPlayer.getHeldItem(handIn);
+		ItemStack heldItem = entityPlayer.getHeldItem(handIn);
         if (!world.isRemote)
         {
-            heldItem.shrink(1);
             if (entityPlayer.dimension == -1)
             {
                 if (TreasuresSettings.settings.corruptedScrollEnabled) {
-                    entityPlayer.inventory.addItemStackToInventory(new ItemStack(TigersEyeRegistration.corrupted_scroll));
+                    ItemStack corruptedBook = new ItemStack(TigersEyeRegistration.corrupted_book);
+                    corruptedBook.setItemDamage(heldItem.getItemDamage());
+                    entityPlayer.inventory.addItemStackToInventory(corruptedBook);
                 }else{
-                    entityPlayer.inventory.addItemStackToInventory(new ItemStack(Items.GUNPOWDER));
+                    if (heldItem.getItemDamage() + 1 >= heldItem.getMaxDamage()) {
+                        entityPlayer.setHeldItem(handIn, new ItemStack(Items.GUNPOWDER));
+                    } else {
+                        heldItem.damageItem(1, entityPlayer);
+                    }
                 }
+
                 ModUtil.playSoundAtPlayer(entityPlayer, SoundEvents.BLOCK_FIRE_EXTINGUISH);
             }else {
                 ModUtil.playSoundAtPlayer(entityPlayer, SoundEvents.ENTITY_ENDERMEN_TELEPORT);
@@ -78,7 +88,11 @@ public class ItemScrollOfReturn extends ItemBase{
                 ModUtil.playSoundAtPlayer(entityPlayer, SoundEvents.ENTITY_ENDERMEN_TELEPORT);
                 ModUtil.spawnExplosionParticleAtEntity(entityPlayer);
 
-                entityPlayer.inventory.addItemStackToInventory(new ItemStack(Items.BOOK));
+                if (heldItem.getItemDamage() + 1 >= heldItem.getMaxDamage()) {
+                    entityPlayer.setHeldItem(handIn, new ItemStack(Items.BOOK));
+                } else {
+                    heldItem.damageItem(1, entityPlayer);
+                }
             }
             return new ActionResult<>(EnumActionResult.SUCCESS, heldItem);
         }else {

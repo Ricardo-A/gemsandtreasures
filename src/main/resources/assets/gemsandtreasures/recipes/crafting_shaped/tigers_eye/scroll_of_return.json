@@ -17,8 +17,7 @@
       "item": "minecraft:paper"
     },
     "B": {
-      "item": "minecraft:bed",
-      "data": 14
+      "item": "minecraft:bed"
     },
     "G": {
       "item": "minecraft:ender_pearl"

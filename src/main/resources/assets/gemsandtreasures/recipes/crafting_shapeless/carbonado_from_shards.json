@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "shardCarbonado"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "shardCarbonado"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "shardCarbonado"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:carbonado"
+  }
+}

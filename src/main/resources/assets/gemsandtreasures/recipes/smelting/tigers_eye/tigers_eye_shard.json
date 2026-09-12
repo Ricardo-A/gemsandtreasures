@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "type": "forge:ore_dict",
+    "ore": "dustTigersEye"
+  },
+  "result": {
+    "item": "gemsandtreasures:tigers_eye"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

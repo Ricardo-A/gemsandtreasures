@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "gemsandtreasures:scroll_of_return"
+    },
+    {
+      "item": "gemsandtreasures:scroll_of_return"
+    },
+    {
+      "item": "gemsandtreasures:scroll_of_return"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:book_of_return"
+  }
+}

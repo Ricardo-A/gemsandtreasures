@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "shardTigersEye"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "shardTigersEye"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "shardTigersEye"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:tigers_eye"
+  }
+}

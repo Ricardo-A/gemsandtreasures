@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "gemsandtreasures:escape_scroll"
+    },
+    {
+      "item": "gemsandtreasures:escape_scroll"
+    },
+    {
+      "item": "gemsandtreasures:escape_scroll"
+    }
+  ],
+  "result": {
+    "item": "gemsandtreasures:escape_book"
+  }
+}

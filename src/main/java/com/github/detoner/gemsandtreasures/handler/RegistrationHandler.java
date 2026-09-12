@@ -5,6 +5,7 @@ import com.github.detoner.gemsandtreasures.handler.registration.*;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -66,6 +67,15 @@ public class RegistrationHandler {
 	public static void registerModels(ModelRegistryEvent event) {
 		for (BaseRegistration registration : registrations) {
 			registration.registerModels(event);
+		}
+	}
+
+	@SubscribeEvent
+	public static void registerRecipes(
+			RegistryEvent.Register<IRecipe> event) {
+
+		for (BaseRegistration registration : registrations) {
+			registration.registerRecipes(event);
 		}
 	}
 }
